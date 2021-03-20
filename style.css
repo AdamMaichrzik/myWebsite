@@ -1,5 +1,6 @@
 body{
     background-color: #1E1E1E;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ---Index.html--- */
@@ -51,33 +52,60 @@ a:hover
     text-decoration: none;
 }
 
-/* ---Home page stylings -- */
+/* --- Home page stylings --- */
 
-/* --- Navigation bar --- */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+/* - Navigation bar - */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 30;
+    left: 0;
     background-color: #1E1E1E;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
   }
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    letter-spacing: 1px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
   }
   
-  li a:hover {
-    color: #4b4b4b;
+  .sidenav a:hover {
+    color: #f1f1f1;
   }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+/* - Home logo styling - */
 
-/* --- Main photo styling ---*/
-
+#homeLogo
+{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #E8E8E8;
+    color: #1E1E1E;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 30px;
+}
