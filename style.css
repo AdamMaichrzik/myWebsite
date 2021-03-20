@@ -112,3 +112,14 @@ a:hover
     height: 30px;
     font-size: 21px;
 }
+
+#homeLogo > a:visited
+{
+    color: #1E1E1E;
+}
+
+#homeLogo > a:hover
+{
+    color: #9f9f9f;
+    transition: 0.3s;
+}
