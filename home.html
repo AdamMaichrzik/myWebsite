@@ -10,9 +10,7 @@ HTML5, CSS, Javascript, bootstrap, git, gitHub"/>
 </head>
 
 <body>
-    <div id="homeLogo">
-        <a href="home.html">Adam Maichrzik</a>
-    </div>
+   <div id="navbar">
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">About</a>
@@ -22,12 +20,36 @@ HTML5, CSS, Javascript, bootstrap, git, gitHub"/>
         <a href="#">Shop</a>
       </div>
       
-        <span style="color: #E8E8E8; font-size:30px;cursor:pointer; margin-left: 8px;" 
-        onclick="openNav()">&#9776; Menu
+        <span style="color: #1e1e1e; float: left; font-size: 25px;
+         cursor:pointer; margin-left: 8px; text-align: center;" 
+        onclick="openNav()">&#9776; 
     
         </span>
-      
-      <script>
+
+        <div id="homeLogo">
+          <a href="home.html">Adam Maichrzik</a>
+      </div>
+    </div>
+
+
+     
+         
+      <div id="mainPhoto"></div>
+      <div id="mainQuote">
+        <p>
+          “My favorite things in life don’t cost any money.<br/> 
+          It’s really clear that the most precious resource<br/>
+          we all have is time.” - <span style="font-style: italic;">Steve Jobs.</span>
+        </p>
+      </div>
+
+    <div id="container">
+        
+    </div>
+
+
+    <!--Scripts -->
+    <script>
       function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
 
@@ -37,11 +59,28 @@ HTML5, CSS, Javascript, bootstrap, git, gitHub"/>
         document.getElementById("mySidenav").style.width = "0";
       }
       </script>
-         
-    <div id="container">
-        
-    </div>
-</body>
+
+    <script>
+     // When the user scrolls the page, execute myFunction 
+      window.onscroll = function() {myFunction()};
+
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+
+  </body>
 
 
 </html>

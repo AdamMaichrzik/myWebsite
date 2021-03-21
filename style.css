@@ -68,6 +68,7 @@ a:hover
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    margin-top: 38px;
   }
   
   .sidenav a {
@@ -95,6 +96,7 @@ a:hover
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
 /* - Home logo styling - */
 
 #homeLogo
@@ -122,4 +124,56 @@ a:hover
 {
     color: #9f9f9f;
     transition: 0.3s;
+}
+
+
+#mainPhoto
+{
+  height: 800px;
+  background-image: url(img/mainPhoto.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#mainQuote
+{
+  color: #E8E8E8;
+  background-color: #1E1E1E;
+  text-align: center;
+  font-style: bold;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 800px)
+{
+  #mainQuote
+  {
+    font-size: 21px;
+    transition: 0,3s;
+  }
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
