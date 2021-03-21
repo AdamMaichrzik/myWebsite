@@ -7,7 +7,7 @@ body{
 
 /* ---Index.html--- */
 .typewriter{
-    width: 510px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -20,10 +20,12 @@ body{
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
+  font-size: 5vw;
   animation: 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
     margin-top: 250px;
+
 }
 /* The typing effect */
 @keyframes typing {
@@ -147,14 +149,7 @@ a:hover
   letter-spacing: 2px;
 }
 
-@media (max-width: 800px)
-{
-  #mainQuote
-  {
-    font-size: 21px;
-    transition: 0,3s;
-  }
-}
+
 
 /* Style the navbar */
 #navbar {
@@ -176,4 +171,14 @@ a:hover
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+@media (max-width: 800px)
+{
+  #mainQuote
+  {
+    font-size: 21px;
+    transition: 0,3s;
+  }
+
 }
