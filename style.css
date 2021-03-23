@@ -58,6 +58,16 @@ a:hover
 
 /* --- Home page stylings --- */
 
+#container >  h1
+{
+  text-align: center;
+  margin-top: 20%;
+  color: #e1e1e1;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 8em;
+}
+
 /* - Navigation bar - */
 .sidenav {
     height: 100%;
