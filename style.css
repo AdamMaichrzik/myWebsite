@@ -116,7 +116,36 @@ a:hover
     margin-right: auto;
     width: 100%;
     height: auto;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    max-height: 20px;
+}
+
+#menu
+{
+  color: #1e1e1e; 
+  float: left; 
+  font-size: 2vw;
+  cursor:pointer; 
+  margin-left: 13px;
+  margin-top: 8px; 
+  text-align: center;
+}
+
+@media (max-width: 800px)
+{
+  #homeLogo
+  {
+    font-size: 1.8em;
+    transition: 0,3s;
+    height: 30px;
+  }
+
+  #menu
+  {
+    font-size: 23px;
+    transition: 0,3s;
+  }
+
 }
 
 #homeLogo > a:visited
