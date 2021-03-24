@@ -7,36 +7,27 @@ body{
 
 /* ---Index.html--- */
 .typewriter{
-    width: 60%;
-    margin: auto;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     justify-content: center;
+    color: #E8E8E8;
+    font-family: monospace;
+    font-size: 2em;
+    white-space: nowrap; /* Keeps the content on a single line */
 }
-.typewriter > h1 {
-  color: #E8E8E8;
-  font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  font-size: 3em;
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-    margin-top: 250px;
+
+@media (max-width: 850px)
+{
+  .typewriter
+  {
+    font-size: 1em;
+    transition: 0,3s;
+  }
 
 }
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #333 }
-}
+
 
 a
 {
@@ -74,7 +65,7 @@ a:hover
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 30;
+    top: 50;
     left: 0;
     background-color: #e8e8e8;
     overflow-x: hidden;
