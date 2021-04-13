@@ -116,8 +116,8 @@ a:hover
     margin-right: auto;
     width: 100%;
     height: auto;
-    font-size: 1.5vw;
-    max-height: 20px;
+    font-size: 2vw;
+    z-index: 100;
 }
 
 #menu
@@ -131,22 +131,6 @@ a:hover
   text-align: center;
 }
 
-@media (max-width: 800px)
-{
-  #homeLogo
-  {
-    font-size: 1.8em;
-    transition: 0,3s;
-    height: 30px;
-  }
-
-  #menu
-  {
-    font-size: 23px;
-    transition: 0,3s;
-  }
-
-}
 
 #homeLogo > a:visited
 {
@@ -185,6 +169,7 @@ a:hover
 /* Style the navbar */
 #navbar {
   overflow: hidden;
+  z-index: 100;
 }
 
 /* Page content */
@@ -213,4 +198,30 @@ a:hover
   }
 
 }
+
+/* Testing some code from foundation */
+
+
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
+
 
