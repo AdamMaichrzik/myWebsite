@@ -28,7 +28,6 @@ body{
 
 }
 
-
 a
 {
     color: #E8E8E8;
@@ -70,9 +69,17 @@ a:hover
     background-color: #e8e8e8;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
-    margin-top: 38px;
+    padding-top: 30px;
+    margin-top: 3%;
   }
+
+  @media (max-width: 480px){
+    .sidenav{
+    margin-top: 10%;
+    }
+  }
+
+ 
   
   .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -117,20 +124,8 @@ a:hover
     width: 100%;
     height: auto;
     font-size: 2vw;
-    z-index: 100;
+    z-index: 1000;
 }
-
-#menu
-{
-  color: #1e1e1e; 
-  float: left; 
-  font-size: 2vw;
-  cursor:pointer; 
-  margin-left: 13px;
-  margin-top: 8px; 
-  text-align: center;
-}
-
 
 #homeLogo > a:visited
 {
@@ -142,7 +137,6 @@ a:hover
     color: #9f9f9f;
     transition: 0.3s;
 }
-
 
 #mainPhoto
 {
@@ -171,7 +165,7 @@ a:hover
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 500;
 }
 
 @media (max-width: 800px)
@@ -182,4 +176,32 @@ a:hover
     transition: 0,3s;
   }
 
+}
+
+#sideNavButton
+{
+  color: #1e1e1e; 
+  float: left; 
+  font-size: 2vw;
+  cursor:pointer;
+  margin-left: 13px;
+  margin-top: 8px; 
+  text-align: center;
+}
+
+
+.container{
+  margin-top: 8%;
+}
+
+@media (max-width:768px){
+  #homeLogo{
+    font-size: 5vw;
+  }
+  #sideNavButton{
+    font-size: 5vw;
+  }
+  .container{
+    margin-top: 13%;
+  }
 }
