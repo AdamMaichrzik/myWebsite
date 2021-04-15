@@ -21,7 +21,9 @@
             <a href="shop.html">Shop</a>
         </div>
       
-        <span id="sideNavButton" onclick="openNav()">&#9776; 
+        <span id="sideNavButton"  style="color: #1e1e1e; float: left;
+        cursor:pointer; margin-left: 13px; margin-top: 8px; text-align: center;" 
+            onclick="openNav()">&#9776; 
         </span>
 
         <div id="homeLogo">
@@ -46,6 +48,18 @@
             document.getElementById("mySidenav").style.width = "0";
         }
     </script>
-
+<style>
+    @media (max-width:768px){
+    #homeLogo{
+      font-size: 5vw;
+    }
+    #sideNavButton{
+      font-size: 5vw;
+    }
+    .container{
+      margin-top: 13%;
+    }
+  }
+  </style>
 </body>
 </html>

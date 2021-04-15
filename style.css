@@ -75,7 +75,7 @@ a:hover
 
   @media (max-width: 480px){
     .sidenav{
-    margin-top: 10%;
+    margin-top: 9.5%;
     }
   }
 
@@ -204,14 +204,4 @@ a:hover
   margin-top: 8%;
 }
 
-@media (max-width:768px){
-  #homeLogo{
-    font-size: 5vw;
-  }
-  #sideNavButton{
-    font-size: 5vw;
-  }
-  .container{
-    margin-top: 13%;
-  }
-}
+
