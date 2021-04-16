@@ -210,7 +210,10 @@ a:hover
 .artDescription{
   text-align: center;
   font-style: italic;
-  color: #8E8E8E;
+  color:#E8E8E8;
+  font-size: 3vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flexbox;
 }
 
 
