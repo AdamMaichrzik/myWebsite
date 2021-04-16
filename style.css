@@ -205,4 +205,12 @@ a:hover
   margin-top: 8%;
 }
 
+/* Styling descriptions unders the arts */
+
+.artDescription{
+  text-align: center;
+  font-style: italic;
+  color: #8E8E8E;
+}
+
 
