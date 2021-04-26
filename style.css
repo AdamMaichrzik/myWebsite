@@ -201,19 +201,3 @@ a:hover
 }
 
 
-.container{
-  margin-top: 8%;
-}
-
-/* Styling descriptions unders the arts */
-
-.artDescription{
-  text-align: center;
-  font-style: italic;
-  color:#E8E8E8;
-  font-size: 3vw;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: flexbox;
-}
-
-

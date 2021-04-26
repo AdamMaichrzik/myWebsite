@@ -16,38 +16,31 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <style>
-    
         .gal img{
-            width: 100%;
+            width: 74%;
+            margin-top: 5%;
+            padding-right: 13%;
+            padding-left: 13%;
         }
-    
-        @media (min-width: 480px) {
-            .gal {
-                -webkit-column-count: 2; /* Chrome, Safari, Opera */
-                -moz-column-count: 2; /* Firefox */
-                column-count: 2;
-                width: 100%;
-            }
-            
+        .artDescription{
+            text-align: left;
+            margin-left: 47%;
+            font-style: italic;
+            color:#E8E8E8;
+            font-size: 3vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
-        @media (min-width: 769px) {
-            .gal {
-                -webkit-column-count: 3; /* Chrome, Safari, Opera */
-                -moz-column-count: 3; /* Firefox */
-                column-count: 3;
-                width: 100%;
-            }
-            
-        }
-        @media (min-width: 1200px) {
-            .gal {
-                -webkit-column-count: 4; /* Chrome, Safari, Opera */
-                -moz-column-count: 4; /* Firefox */
-                column-count: 4;
-                width: 100%;
-            }
-            
-        }
+        @media (max-width:768px){
+    #homeLogo{
+      font-size: 5vw;
+    }
+    #sideNavButton{
+      font-size: 5vw;
+    }
+    .gal img {
+    margin-top: 13%;
+  }
+  }
         </style>
     <!-- END OF TESTING AREA-->
 </head>
@@ -77,13 +70,13 @@
     <div style="margin-top: 8%;" class="container">
       <div class="row">
           <div class="gal">
-             <img style="margin-top: 5%;" src="img/Arts/1.jpeg" alt=""> 
+             <img src="img/Arts/1.jpeg" alt=""> 
               <span class="artDescription">Cube</span> 
-              <img style="margin-top: 5%;" src="img/Arts/2.jpeg" alt="">
+              <img src="img/Arts/2.jpeg" alt="">
               <span class="artDescription">Cross</span>
-              <img style="margin-top: 5%;" src="img/Arts/3.jpeg" alt="">
+              <img src="img/Arts/3.jpeg" alt="">
               <span class="artDescription">Squere</span>
-              <img style="margin-top: 5%;" src="img/Arts/4.jpeg" alt="">
+              <img src="img/Arts/4.jpeg" alt="">
               <span class="artDescription">Frame</span>
           </div>
       </div>
@@ -110,18 +103,5 @@
         }
     </script>
 
-<style>
-    @media (max-width:768px){
-    #homeLogo{
-      font-size: 5vw;
-    }
-    #sideNavButton{
-      font-size: 5vw;
-    }
-    .gal{
-      margin-top: 13%;
-    }
-  }
-  </style>
 </body>
 </html>
