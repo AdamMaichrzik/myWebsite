@@ -202,20 +202,6 @@ a:hover
 
 /* Styles for Arts page */
 
-.gal img{
-    width: 74%;
-    margin-top: 5%;
-    padding-right: 13%;
-    padding-left: 13%;
-}
-.artDescription{
-    text-align: left;
-    margin-left: 47%;
-    font-style: italic;
-    color:#E8E8E8;
-    font-size: 3vw;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 @media (max-width:768px){
 #homeLogo{
 font-size: 5vw;
@@ -223,9 +209,11 @@ font-size: 5vw;
 #sideNavButton{
 font-size: 5vw;
 }
-.gal img {
-margin-top: 13%;
+
 }
+
+.ArtsContainer{
+  
 }
 
 /* About me styles */
