@@ -1,6 +1,6 @@
 body{
     background-color: #1E1E1E;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gayathri', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -230,12 +230,17 @@ margin-top: 13%;
 
 /* About me styles */
 
-#aboutMeBox
+.aboutMeBox
 {
-  margin-top: 21%;
+  margin-top: 15%;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   background-color: #E8E8E8 ;
   display: flexbox;
+  letter-spacing: 1px;
+}
+
+.aboutMeParagraph{
+  padding: 5%;
 }
