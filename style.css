@@ -213,7 +213,11 @@ font-size: 5vw;
 }
 
 .ArtsContainer{
-  
+  margin-top: 15%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flexbox;
 }
 
 /* About me styles */
