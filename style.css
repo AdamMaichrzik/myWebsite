@@ -212,12 +212,17 @@ font-size: 5vw;
 
 }
 
-.ArtsContainer{
+#ArtsContainer{
   margin-top: 15%;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   display: flexbox;
+}
+
+.ArtsDescriptions{
+  text-align: center;
+  color: #E8E8E8;
 }
 
 /* About me styles */
