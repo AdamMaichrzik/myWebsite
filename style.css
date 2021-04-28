@@ -241,3 +241,16 @@ font-size: 5vw;
 .aboutMeParagraph{
   padding-left: 5%;
 }
+
+/* ----- Index styles ----- */
+
+#indexMainText
+{
+  
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #1E1E1E ;
+  margin-top: 80%;
+  font-size: 5vw;
+  font-weight: bold;
+}
