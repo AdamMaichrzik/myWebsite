@@ -12,7 +12,7 @@ HTML5, CSS, Javascript, bootstrap, git, gitHub"/>
 <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="animate-in" >
   <div id="navbar">
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -65,5 +65,11 @@ HTML5, CSS, Javascript, bootstrap, git, gitHub"/>
     }
   }
   </style>
+  <script>
+    window.addEventListener("beforeunload", function () 
+    {
+        document.body.classList.add("animate-out");
+    });
+</script>
   </body>
 </html>

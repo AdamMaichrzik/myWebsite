@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;700&display=swap" rel="stylesheet">
     </head>
 
-<body style="background-color: #1e1e1e;">
+<body class="animate-in" style="background-color: #1e1e1e;">
     <div id="navbar">
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -63,6 +63,11 @@
     </script>
      <script src="vendor/jquery/jquery.slim.min.js"></script>
      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script>
+        window.addEventListener("beforeunload", function () 
+        {
+            document.body.classList.add("animate-out");
+        });
+    </script>
 </body>
 </html>

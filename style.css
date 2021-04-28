@@ -244,13 +244,38 @@ font-size: 5vw;
 
 /* ----- Index styles ----- */
 
-#indexMainText
+.indexMainText
 {
   
   margin-left: 10%;
   margin-right: 10%;
   color: #1E1E1E ;
   margin-top: 80%;
-  font-size: 5vw;
+  font-size: 4.3vw;
   font-weight: bold;
+  padding: 5px;
+  letter-spacing: 1px;
+  background-color: white;
+}
+
+/* test  */ 
+.animate-in {
+  -webkit-animation: fadeIn .5s ease-in;
+  animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
