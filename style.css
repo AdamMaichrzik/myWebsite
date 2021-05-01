@@ -279,3 +279,26 @@ font-size: 5vw;
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Book page styles */
+
+.bookDiv
+{
+  margin-top: 13%;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #E8E8E8 ;
+  display: flexbox;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding: 5%;
+}
+
+.BookHeader
+{
+  margin-top: 21%;
+  font-size: 10vw;
+  color: #E8E8E8;
+  text-align: center;
+}
