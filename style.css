@@ -325,5 +325,22 @@ font-size: 5vw;
   font-size: 5vw;
   background-color: #E8E8E8;
   color: #1E1E1E;
-  text-align: center;
+  text-align: center; 
+}
+
+/* Blog styles */
+
+.blogContainer
+{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: #E8E8E8;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.blogListLink
+{
+  color: #1E1E1E;
 }
