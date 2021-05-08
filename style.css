@@ -121,7 +121,7 @@ a:hover
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    font-size: 2vw;
+    font-size: 5vw;
     z-index: 100;
     text-align: center;
 }
@@ -190,7 +190,7 @@ a:hover
 {
   color: #1e1e1e; 
   float: left; 
-  font-size: 2vw;
+  font-size: 5vw;
   cursor:pointer;
   margin-left: 13px;
   margin-top: 8px; 
@@ -198,16 +198,6 @@ a:hover
 }
 
 /* Styles for Arts page */
-
-@media (max-width:768px){
-#homeLogo{
-font-size: 5vw;
-}
-#sideNavButton{
-  font-size: 6vw;
-}
-
-}
 
 #ArtsContainer{
   margin-top: 21%;
