@@ -12,14 +12,16 @@ body {
   width: 100%;
   margin-top: 3%;
   margin-bottom: 3%;
+  position: relative;
 }
 
 .indexText{
   z-index: 100;
+  position: absolute;
+  bottom: 10%;
   font-size: 2em;
   color: #1E1E1E;
   background-color: white;
-  position: absolute;
   width: 100%;
   text-align: center;
   letter-spacing: 1px;
