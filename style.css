@@ -367,7 +367,7 @@ a:hover {
 
 /* Art's page styles */
 
-.artPhoto {
+.bigPhoto {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -393,3 +393,26 @@ a:hover {
 
 /* Photos page styling */
 
+.bigPhoto {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.artTitle {
+	width: 84%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 10vw;
+	color: #E8E8E8;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.artDescription {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+	color: #E8E8E8;
+}
