@@ -192,6 +192,7 @@ a:hover {
 .aboutMeBox {
   background-color: #E8E8E8;
 	letter-spacing: 1px;
+  position: relative;
 }
 
 .certificatesBox
@@ -201,17 +202,32 @@ a:hover {
 }
 
 .aboutMeParagraph {
-	padding-left: 5%;
+	padding-left: 5%; 
+  padding-right: 5%; 
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #E8E8E8;
+  text-align: justify;
 }
 
 
 .aboutMeImage
 {
-  padding-left: 10%; 
-  padding-right: 10%; 
-  padding-top: 5%;
+  padding-left: 5%; 
+  padding-right: 5%;
+  padding-top: 5%; 
   width: 100%;
+}
+
+@media all and (min-width: 770px)
+{
+  .aboutMeImage{
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+
 }
 
 .aboutMeHeader
@@ -291,25 +307,23 @@ a:hover {
 
 /* Footer styles */
 
+#footerBox
+{
+  width: 100%;
+  background-color: #E8E8E8;
+  color: #1E1E1E;
+}
+
 .footerSocialsMedia {
-	width: 100%;
 	padding-top: 3%;
-	padding-left: 5%;
-	padding-right: 5%;
 	text-align: center;
 	margin-top: 3%;
 	font-size: 8vw;
-	background-color: #E8E8E8;
 }
 
 .siteFooter {
   height: 100%;
-	width: 100%;
-	padding-left: 5%;
-	padding-right: 5%;
 	font-size: 5vw;
-	background-color: #E8E8E8;
-	color: #1E1E1E;
 	text-align: center;
 }
 
