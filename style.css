@@ -190,24 +190,28 @@ a:hover {
 /* About me styles */
 
 .aboutMeBox {
-	margin-top: 21%;
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
-	background-color: #E8E8E8;
+  background-color: #E8E8E8;
 	letter-spacing: 1px;
+}
+
+.certificatesBox
+{
+  background-color: #E8E8E8;
+  padding-top: 3%;
 }
 
 .aboutMeParagraph {
 	padding-left: 5%;
+  background-color: #E8E8E8;
 }
+
 
 .aboutMeImage
 {
   padding-left: 10%; 
   padding-right: 10%; 
   padding-top: 5%;
-  width: 80%;
+  width: 100%;
 }
 
 .aboutMeHeader
@@ -215,6 +219,23 @@ a:hover {
   margin-left: 5%; 
   text-align: center;
   padding-top: 3%;
+}
+
+.certificationsHeader
+{
+  margin-left: 5%; 
+  text-align: center;
+  padding-top: 3%;
+}
+
+.aboutMeText
+{
+  margin-top: 30%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #E8E8E8;
+	letter-spacing: 1px;
 }
 /* Fade in and out effect while opening the page  */
 
@@ -271,7 +292,7 @@ a:hover {
 /* Footer styles */
 
 .footerSocialsMedia {
-	width: 90%;
+	width: 100%;
 	padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -283,7 +304,7 @@ a:hover {
 
 .siteFooter {
   height: 100%;
-	width: 90%;
+	width: 100%;
 	padding-left: 5%;
 	padding-right: 5%;
 	font-size: 5vw;
@@ -429,22 +450,12 @@ a:hover {
     font-size: 2vw;
   }
 
-  .aboutMeBox 
-  {
-    margin-top: 8%;
-    -webkit-column-count: 2;
-    
-  }
-
-  .aboutMeImage
-  {
-    padding-bottom: 10%;
-  }
-
   .aboutMeHeader
   {
-   
+    display: none;
+    padding-top: 3%;
   }
+
 
 }
 
@@ -468,6 +479,5 @@ a:hover {
   {
     font-size: 1.5vw;
   }
-
   
 }
