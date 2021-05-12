@@ -298,6 +298,7 @@ a:hover {
 	padding: 5%;
 }
 
+
 .comingSoonHeader {
 	margin-top: 21%;
 	font-size: 10vw;
@@ -438,6 +439,10 @@ a:hover {
 	color: #E8E8E8;
 }
 
+.bookDiv
+{
+  margin-top: 3%;
+}
 
 
 /* Media queries */
@@ -463,6 +468,10 @@ a:hover {
   {
     font-size: 2vw;
   }
+  .comingSoonHeader
+  {
+    font-size: 5vw;
+  }
 
   .aboutMeHeader
   {
@@ -475,7 +484,7 @@ a:hover {
 
 /* iPad screen width */
 
-@media (min-width: 1024px) {
+@media (min-width: 481px) {
 	#homeLogo{
     font-size: 1.5vw;
   }
@@ -493,5 +502,38 @@ a:hover {
   {
     font-size: 1.5vw;
   }
+
+  .comingSoonHeader
+  {
+    font-size: 10vw;
+  }
   
 }
+
+/* Big screen */
+
+@media (min-width: 1200px)
+{
+  #homeLogo{
+    font-size: 2vw;
+  }
+
+  #sideNavButton
+  {
+    font-size: 2vw;
+  }
+
+  .footerSocialsMedia
+  {
+    font-size: 2vw;
+  }
+  .siteFooter
+  {
+    font-size: 2vw;
+  }
+
+  .comingSoonHeader
+  {
+    font-size: 10vw;
+  }
+} 
