@@ -287,7 +287,7 @@ a:hover {
 /* Book page styles */
 
 .bookDiv {
-	margin-top: 13%;
+	margin-top: 3%;
 	width: 80%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -439,76 +439,11 @@ a:hover {
 	color: #E8E8E8;
 }
 
-.bookDiv
-{
-  margin-top: 3%;
-}
-
 
 /* Media queries */
 
 
-/* Mobile width */
-@media (min-width: 700px) {
-	#homeLogo{
-    font-size: 2vw;
-  }
 
-  #sideNavButton
-  {
-    font-size: 2vw;
-  }
-
-  .footerSocialsMedia
-  {
-    font-size: 2vw;
-    padding-top: 1%;
-  }
-  .siteFooter
-  {
-    font-size: 2vw;
-  }
-  .comingSoonHeader
-  {
-    font-size: 5vw;
-  }
-
-  .aboutMeHeader
-  {
-    display: none;
-    padding-top: 3%;
-  }
-
-
-}
-
-/* iPad screen width */
-
-@media (min-width: 481px) {
-	#homeLogo{
-    font-size: 1.5vw;
-  }
-
-  #sideNavButton
-  {
-    font-size: 1.5vw;
-  }
-
-  .footerSocialsMedia
-  {
-    font-size: 1.5vw;
-  }
-  .siteFooter
-  {
-    font-size: 1.5vw;
-  }
-
-  .comingSoonHeader
-  {
-    font-size: 10vw;
-  }
-  
-}
 
 /* Big screen */
 
@@ -536,4 +471,76 @@ a:hover {
   {
     font-size: 10vw;
   }
+  .blogContainer
+  {
+    margin-top: 8%;
+  }
 } 
+
+/* iPad screen width */
+
+@media (min-width: 770px) {
+	#homeLogo{
+    font-size: 2vw;
+  }
+
+  #sideNavButton
+  {
+    font-size: 2vw;
+  }
+
+  .footerSocialsMedia
+  {
+    font-size: 2vw;
+  }
+  .siteFooter
+  {
+    font-size: 2vw;
+  }
+
+  .comingSoonHeader
+  {
+    font-size: 10vw;
+  }
+
+  .blogContainer
+  {
+    margin-top: 13%;
+  }
+    
+}
+
+/* Mobile width */
+@media (max-width: 481px) {
+	#homeLogo{
+    font-size: 5vw;
+    color: red;
+  }
+
+  #sideNavButton
+  {
+    font-size: 5vw;
+  }
+
+  .footerSocialsMedia
+  {
+    font-size: 5vw;
+    padding-top: 1%;
+  }
+  .siteFooter
+  {
+    font-size: 5vw;
+  }
+  .comingSoonHeader
+  {
+    font-size: 5vw;
+  }
+
+  .aboutMeHeader
+  {
+    display: none;
+    padding-top: 3%;
+  }
+
+}
+
