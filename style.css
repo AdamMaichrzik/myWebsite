@@ -383,17 +383,18 @@ a:hover {
 
 /* Art's page styles */
 
-.bigPhoto {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+.artFirstPhoto
+{
+  margin-top: 21%;
+}
+
+.artDescriptionBox
+{
+  margin-top: 21%;
 }
 
 .artTitle {
-	width: 84%;
-	margin-left: 5%;
-	margin-right: 5%;
-	font-size: 10vw;
+	font-size: 8vw;
 	color: #E8E8E8;
 	text-align: center;
 	margin-top: 3%;
@@ -407,19 +408,21 @@ a:hover {
 	color: #E8E8E8;
 }
 
+.interiorArt
+{
+  padding: 1%;
+}
+
 /* Photos page styling */
 
 .bigPhoto {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 21%;
 }
 
 .artTitle {
-	width: 84%;
-	margin-left: 5%;
-	margin-right: 5%;
-	font-size: 10vw;
+	font-size: 8vw;
 	color: #E8E8E8;
 	text-align: center;
 	margin-top: 3%;
@@ -501,6 +504,18 @@ a:hover {
   {
     margin-top: 13%;
   }
+
+  .artFirstPhoto
+  {
+    margin-top: 13%;
+    margin-bottom: 3%;
+  }
+
+  .artDescriptionBox
+{
+  margin-top: 13%;
+}
+
     
 }
 
