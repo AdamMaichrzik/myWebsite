@@ -413,6 +413,17 @@ a:hover {
   padding: 1%;
 }
 
+.interiorArt:hover, .artFirstPhoto:hover
+{
+    opacity: 0.5;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+    background-size: cover;
+-o-background-size: cover;  
+}
+
 /* Photos page styling */
 
 .bigPhoto {
