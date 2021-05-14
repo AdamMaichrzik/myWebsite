@@ -456,20 +456,7 @@ a:hover {
 
 @media (min-width: 1200px)
 {
-  #homeLogo{
-    font-size: 2vw;
-  }
-
-  #sideNavButton
-  {
-    font-size: 2vw;
-  }
-
-  .footerSocialsMedia
-  {
-    font-size: 2vw;
-  }
-  .siteFooter
+  #homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
   {
     font-size: 2vw;
   }
@@ -478,12 +465,8 @@ a:hover {
   {
     font-size: 10vw;
   }
-  .blogContainer
-  {
-    margin-top: 8%;
-  }
 
-.artFirstPhoto
+.artFirstPhoto, .tripTitle, .blogContainer
   {
     margin-top: 8%;
   }
@@ -493,54 +476,27 @@ a:hover {
 /* iPad screen width */
 
 @media (min-width: 770px) {
-	#homeLogo{
-    font-size: 2vw;
-  }
-
-  #sideNavButton
+	#homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
   {
     font-size: 2vw;
-  }
-
-  .footerSocialsMedia
-  {
-    font-size: 2vw;
-  }
-  .siteFooter
-  {
-    font-size: 2vw;
-  }
+  } 
 
   .comingSoonHeader
   {
     font-size: 10vw;
   }
 
-  .blogContainer
-  {
-    margin-top: 13%;
-  }
-
-  .artDescriptionBox
-{
-  margin-top: 13%;
-}
-
-.artFirstPhoto
+.artFirstPhoto, .tripTitle, .artDescriptionBox, .blogContainer
   {
     margin-top: 8%;
   }
+
     
 }
 
 /* Mobile width */
 @media (max-width: 481px) {
-	#homeLogo{
-    font-size: 5vw;
-    color: red;
-  }
-
-  #sideNavButton
+	#homeLogo, #sideNavButton, .comingSoonHeader, .siteFooter
   {
     font-size: 5vw;
   }
@@ -550,18 +506,9 @@ a:hover {
     font-size: 5vw;
     padding-top: 1%;
   }
-  .siteFooter
-  {
-    font-size: 5vw;
-  }
-  .comingSoonHeader
-  {
-    font-size: 5vw;
-  }
 
   .aboutMeHeader
   {
-    display: none;
     padding-top: 3%;
   }
 
@@ -571,6 +518,7 @@ a:hover {
 {
   padding: 3%;
 }
+
 
 .photo-gallery .container .photos {
   padding-bottom:20px;
