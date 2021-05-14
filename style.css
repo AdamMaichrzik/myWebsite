@@ -383,14 +383,14 @@ a:hover {
 
 /* Art's page styles */
 
-.artFirstPhoto
+.artDescriptionBox
 {
   margin-top: 21%;
 }
 
-.artDescriptionBox
+.margin
 {
-  margin-top: 21%;
+  padding: 1%;
 }
 
 .artTitle {
@@ -442,6 +442,10 @@ a:hover {
 	color: #E8E8E8;
 }
 
+.artFirstPhoto
+{
+  margin-top: 21%;
+}
 
 /* Media queries */
 
@@ -478,6 +482,12 @@ a:hover {
   {
     margin-top: 8%;
   }
+
+.artFirstPhoto
+  {
+    margin-top: 8%;
+  }
+ 
 } 
 
 /* iPad screen width */
@@ -511,17 +521,15 @@ a:hover {
     margin-top: 13%;
   }
 
-  .artFirstPhoto
-  {
-    margin-top: 13%;
-    margin-bottom: 3%;
-  }
-
   .artDescriptionBox
 {
   margin-top: 13%;
 }
 
+.artFirstPhoto
+  {
+    margin-top: 8%;
+  }
     
 }
 
@@ -559,6 +567,11 @@ a:hover {
 
 }
 
+.item
+{
+  padding: 3%;
+}
+
 .photo-gallery .container .photos {
   padding-bottom:20px;
   margin-left: auto;
@@ -567,7 +580,6 @@ a:hover {
 
 .photo-gallery .item {
   padding-bottom:30px;
-
 }
 
 
