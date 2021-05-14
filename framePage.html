@@ -7,6 +7,9 @@
 	<meta charset="utf-8">
 	<meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Bootstrap stylesheer-->
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 	<link href="style.css" rel="stylesheet">
 	<meta content="width=device-width,initial-scale=1.0" name="viewport">
 	<link href="https://fonts.gstatic.com" rel="preconnect">
@@ -32,42 +35,38 @@
 		</div>
 	</div>
 
-	<div class="bigPhoto" style="margin-top: 21%;">
-        <img src="img/Arts/frame.jpeg" width="100%">
-	</div>
-
-	<div class="artTitle"> Frame </div>
-
-	<div class="artDescription">
-		<p>
-            This minimalistic masterpiece was made by my in saturnday evening.
-            <br>
-		    I was inspirated by the simplicity of the cube.
-        </p>
-
-		<h2>Specifications</h2>
-		Height: 30 cm
-        <br>
-		Width: 20 cm
-        <br>
-		Material: Canvas
-        <br>
-
-		<h2>Interiors</h2>
-	</div>
-
-
-	<div class="bigPhoto" style="margin-top: 3%;">
-        <img src="img/Arts/frameInterior1.png" width="100%">
-	</div>
-
-	<div class="bigPhoto" style="margin-top: 3%;">
-        <img src="img/Arts/frameInterior2.png" width="100%">
-	</div>
-
-	<div class="bigPhoto" style="margin-top: 3%;">
-        <img src="img/Arts/frameInterior3.png" width="100%">
-	</div>
+	<div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xl-6 artFirstPhoto">
+                <img src="img/Arts/frame.jpeg" width="100%" data-toggle=”lightbox”>
+            </div>
+            <div class="col-md-4 col-xl-6 artDescriptionBox">
+                <div class="artTitle">Frame</div>
+                <div class="artDescription">
+                <p>
+                    This minimalistic masterpiece was made by my in saturnday evening. <br>
+                    I was inspirated by the simplicity of the cube. 
+                </p>
+                <p>
+                    <h2>Specifications</h2>
+                    Height: 30 cm <br>
+                    Width: 20 cm    <br>
+                    Material: Canvas <br>
+                </p>
+                </div>
+            </div>
+            <div class="artTitle">Interiors</div>
+            <div class="col-md-6 col-xl-4 interiorArt ">
+                <img src="img/Arts/frameInterior1.png" width="100%">
+            </div>
+            <div class="col-md-6 col-xl-4 interiorArt">
+                <img src="img/Arts/frameInterior2.png" width="100%">
+            </div>
+            <div class="col-md-6 col-xl-4 interiorArt">
+                <img src="img/Arts/frameInterior3.png" width="100%">
+            </div>
+        </div>
+    </div>
 
     <!-- Footers -->
 	<div id="footerBox">
@@ -82,6 +81,7 @@
             Copyright LogicCode &copy;
         </div>
     </div> 
+
     <!--Scripts -->
 	<script>
         function openNav() 
@@ -92,7 +92,8 @@
         function closeNav() 
         {
             document.getElementById("mySidenav").style.width = "0";
-        }
+        }	
 	</script> 
+
 </body>
 </html>
