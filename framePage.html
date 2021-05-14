@@ -15,6 +15,8 @@
 	<link href="https://fonts.gstatic.com" rel="preconnect">
 	<link href="fontello/fontello.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;700&display=swap" rel="stylesheet">
+	<!-- Light box styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 </head>
 
 <body class="animate-in">
@@ -33,12 +35,14 @@
 		<div id="homeLogo">
 			<a href="index.html">Adam Maichrzik</a>
 		</div>
-	</div>
+	</div>	
 
 	<div class="container">
         <div class="row">
             <div class="col-md-8 col-xl-6 artFirstPhoto">
-                <img src="img/Arts/frame.jpeg" width="100%" data-toggle=”lightbox”>
+                <a href="img/Arts/frame.jpeg" data-lightbox="photo">
+					<img class="img-fluid" src="img/Arts/frame.jpeg">
+				</a>
             </div>
             <div class="col-md-4 col-xl-6 artDescriptionBox">
                 <div class="artTitle">Frame</div>
@@ -56,15 +60,16 @@
                 </div>
             </div>
             <div class="artTitle">Interiors</div>
-            <div class="col-md-6 col-xl-4 interiorArt ">
-                <img src="img/Arts/frameInterior1.png" width="100%">
-            </div>
-            <div class="col-md-6 col-xl-4 interiorArt">
-                <img src="img/Arts/frameInterior2.png" width="100%">
-            </div>
-            <div class="col-md-6 col-xl-4 interiorArt">
-                <img src="img/Arts/frameInterior3.png" width="100%">
-            </div>
+
+			<div class="photo-gallery">
+				<div class="container">
+					<div class="row photos">
+						<div class="col-md-6 col-xl-4 item"><a href="img/Arts/frameInterior1.png" data-lightbox="photos"><img class="img-fluid" src="img/Arts/frameInterior1.png"></a></div>
+						<div class="col-md-6 col-xl-4 item"><a href="img/Arts/frameInterior2.png" data-lightbox="photos"><img class="img-fluid" src="img/Arts/frameInterior2.png"></a></div>
+						<div class="col-md-6 col-xl-4 item"><a href="img/Arts/frameInterior3.png" data-lightbox="photos"><img class="img-fluid" src="img/Arts/frameInterior3.png"></a></div>
+					</div>
+				</div>
+			</div>
         </div>
     </div>
 
@@ -94,6 +99,8 @@
             document.getElementById("mySidenav").style.width = "0";
         }	
 	</script> 
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
 </html>

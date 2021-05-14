@@ -408,20 +408,15 @@ a:hover {
 	color: #E8E8E8;
 }
 
-.interiorArt
-{
-  padding: 1%;
-}
-
-.interiorArt:hover, .artFirstPhoto:hover
+.item:hover, .artFirstPhoto:hover
 {
     opacity: 0.5;
     -webkit-transition: opacity 1s;
     transition: opacity 1s;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
--o-background-size: cover;  
+    -o-background-size: cover;  
 }
 
 /* Photos page styling */
@@ -563,4 +558,17 @@ a:hover {
   }
 
 }
+
+.photo-gallery .container .photos {
+  padding-bottom:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+
+}
+
+
 
