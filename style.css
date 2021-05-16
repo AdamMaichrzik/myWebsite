@@ -350,18 +350,19 @@ a:hover {
 
 .tripTitle {
 	margin-top: 21%;
+  padding: 3%;
 	text-align: center;
 	color: #E8E8E8;
+  font-size: 3vw;
 }
 
 .tripHeader {
 	padding: 3%;
 	text-align: center;
-	color: #1E1E1E;
+  color: #E8E8E8;
 }
 
 .tripPhoto {
-	margin-top: 3%;
 	width: 100%;
 	height: 800px;
 	background-image: url(img/Trips/morskieOko2021.jpeg);
@@ -370,9 +371,7 @@ a:hover {
 }
 
 .tripDescription {
-	color: #1E1E1E;
-  background-color: #E8E8E8;
-	margin-top: 5%;
+  color: #E8E8E8;
   padding: 5%;
 	letter-spacing: 1px;
 	text-align: justify;
@@ -384,6 +383,7 @@ a:hover {
   margin-top: 5%;
   background-position: center bottom;
 }
+
 /* Art's page styles */
 
 .artDescriptionBox
@@ -470,9 +470,14 @@ a:hover {
     margin-top: 8%;
   }
 
-.artFirstPhoto, .tripTitle, .blogContainer
+.artFirstPhoto, .blogContainer
   {
     margin-top: 8%;
+  }
+
+  .tripTitle
+  {
+    margin-top: 5%;
   }
  
 } 
@@ -491,11 +496,15 @@ a:hover {
     margin-top: 8%;
   }
 
-.artFirstPhoto, .tripTitle, .artDescriptionBox, .blogContainer
+.artFirstPhoto, .artDescriptionBox, .blogContainer
   {
     margin-top: 8%;
   }
 
+  .tripTitle
+  {
+    margin-top: 5%;
+  }
     
 }
 
