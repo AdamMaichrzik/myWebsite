@@ -281,12 +281,8 @@ a:hover {
 /* Book page styles */
 
 .bookDiv {
-	margin-top: 3%;
-	width: 80%;
-	margin-left: 5%;
-	margin-right: 5%;
+
 	background-color: #E8E8E8;
-	display: flexbox;
 	letter-spacing: 1px;
 	text-align: justify;
 	padding: 5%;
@@ -471,6 +467,7 @@ a:hover {
   .comingSoonHeader
   {
     font-size: 10vw;
+    margin-top: 8%;
   }
 
 .artFirstPhoto, .tripTitle, .blogContainer
@@ -491,6 +488,7 @@ a:hover {
   .comingSoonHeader
   {
     font-size: 10vw;
+    margin-top: 8%;
   }
 
 .artFirstPhoto, .tripTitle, .artDescriptionBox, .blogContainer
