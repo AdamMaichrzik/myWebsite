@@ -126,7 +126,6 @@ a:hover {
 	font-weight: bold;
 	letter-spacing: 2px;
 	padding-top: 13px;
-	padding-bottom: 13px;
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
@@ -519,22 +518,26 @@ a:hover {
     padding-top: 3%;
   }
 
-}
+  .tripTitle{
+    font-size: 5vw;
+    margin-top: 13%;
+  }
 
-.item
-{
-  padding: 3%;
-}
+  .tripDescription
+  {
+    padding: 5%;
+  }
 
+  .widePhoto
+  {
+    height: 50%;
+  }
 
-.photo-gallery .container .photos {
-  padding-bottom:20px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .mobilePadding
+  {
+    padding-top: 3%;
+  }
 
-.photo-gallery .item {
-  padding-bottom:30px;
 }
 
 
