@@ -30,7 +30,7 @@ body {
 
 #mainPhoto {
 	height: 800px;
-	background-image: url(img/mainPhoto.jpeg);
+	background-image: url(img/indexBlog.jpeg);
 	background-size: cover;
 	background-position: center;
 }
