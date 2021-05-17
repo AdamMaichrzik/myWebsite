@@ -376,6 +376,13 @@ a:hover {
 	text-align: justify;
 }
 
+.mainTripPhoto {
+	height: 800px;
+	background-image: url(img/Trips/morskieOko2021.jpeg);
+	background-size: cover;
+	background-position: bottom;
+}
+
 /* Art's page styles */
 
 .artDescriptionBox
