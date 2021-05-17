@@ -372,16 +372,9 @@ a:hover {
 
 .tripDescription {
   color: #E8E8E8;
-  padding: 5%;
+  padding: 3% 0 3% 0;
 	letter-spacing: 1px;
 	text-align: justify;
-}
-
-.tripStoryPhoto
-{
-  background-image: url(../myWebsie/img/Trips/morskieOko2021/1.jpeg);
-  margin-top: 5%;
-  background-position: center bottom;
 }
 
 /* Art's page styles */
