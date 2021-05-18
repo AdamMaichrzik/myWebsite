@@ -478,6 +478,10 @@ a:hover {
   {
     margin-top: 5%;
   }
+
+  #mainPhoto {
+    background-position: center 40%;
+  }
  
 } 
 
