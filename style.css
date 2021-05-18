@@ -188,10 +188,17 @@ a:hover {
 
 /* About me styles */
 
+.aboutMePhoto {
+  background-color: #E8E8E8;
+	letter-spacing: 1px;
+  position: relative;
+}
+
 .aboutMeBox {
   background-color: #E8E8E8;
 	letter-spacing: 1px;
   position: relative;
+  margin-top: 21%;
 }
 
 .certificatesBox
@@ -406,6 +413,7 @@ a:hover {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
+  margin-top: 3%;
 	text-align: justify;
 	color: #E8E8E8;
 }
@@ -482,6 +490,11 @@ a:hover {
   #mainPhoto {
     background-position: center 40%;
   }
+
+  .aboutMeBox
+  {
+    margin-top: 8%;
+  }
  
 } 
 
@@ -507,6 +520,16 @@ a:hover {
   .tripTitle
   {
     margin-top: 5%;
+  }
+
+  .bigPhoto
+  {
+    margin-top: 8%;
+  }
+
+  .aboutMeBox
+  {
+    margin-top: 8%;
   }
     
 }
@@ -552,6 +575,11 @@ a:hover {
   #mainQuote
   {
     padding: 8%;
+  }
+
+  .aboutMeBox
+  {
+    margin-top: 0%;
   }
 
 }
