@@ -59,6 +59,8 @@ a:visited {
 a:hover {
 	color: #9f9f9f;
 	text-decoration: none;
+  opacity: 0.5;
+  transition: opacity .15s ease-in-out;
 }
 
 /* --- Home page stylings --- */
