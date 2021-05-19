@@ -387,9 +387,9 @@ a:hover {
 
 .mainTripPhoto {
 	height: 800px;
-	background-image: url(img/Trips/tatry2020/Day3/IMG_2329-min.jpeg);
+	background-image: url(img/Trips/tatry2020/Day1/IMG_2197-min.jpeg);
 	background-size: cover;
-	background-position: center right;
+	background-position: center;
 }
 
 /* Art's page styles */
@@ -564,10 +564,7 @@ a:hover {
     padding: 5%;
   }
 
-  .widePhoto
-  {
-    height: 50%;
-  }
+ 
 
   .mobilePadding
   {
