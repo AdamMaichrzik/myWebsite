@@ -63,6 +63,10 @@ a:hover {
   transition: opacity .15s ease-in-out;
 }
 
+.mobileIndexPhoto
+{
+  display: none;
+}
 /* --- Home page stylings --- */
 
 
@@ -571,6 +575,15 @@ a:hover {
     margin-top: 0%;
   }
 
+  .bigScreenIndexPhoto
+  {
+    display: none;
+  }
+
+  .mobileIndexPhoto
+  {
+    display: block;
+  }
 }
 
 
