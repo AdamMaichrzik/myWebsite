@@ -387,9 +387,9 @@ a:hover {
 
 .mainTripPhoto {
 	height: 800px;
-	background-image: url(img/Trips/morskieOko2021.jpeg);
+	background-image: url(img/Trips/tatry2020/Day3/IMG_2329-min.jpeg);
 	background-size: cover;
-	background-position: bottom;
+	background-position: center right;
 }
 
 /* Art's page styles */
