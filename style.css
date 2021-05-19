@@ -482,7 +482,7 @@ a:hover {
 
   .tripTitle
   {
-    margin-top: 3%;
+    margin-top: 5%;
   }
 
 
@@ -518,7 +518,7 @@ a:hover {
 
   .tripTitle
   {
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   .bigPhoto
@@ -529,11 +529,6 @@ a:hover {
   .aboutMeBox
   {
     margin-top: 8%;
-  }
-
-  .tripTitle
-  {
-    margin-top: 0%;
   }
     
 }
