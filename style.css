@@ -355,7 +355,6 @@ a:hover {
 /* Trip pages styles */
 
 .tripTitle {
-	margin-top: 21%;
   padding: 3%;
 	text-align: center;
 	color: #E8E8E8;
@@ -475,8 +474,9 @@ a:hover {
 
   .tripTitle
   {
-    margin-top: 5%;
+    margin-top: 3%;
   }
+
 
   #mainPhoto {
     background-position: center 40%;
@@ -522,6 +522,11 @@ a:hover {
   {
     margin-top: 8%;
   }
+
+  .tripTitle
+  {
+    margin-top: 0%;
+  }
     
 }
 
@@ -545,7 +550,7 @@ a:hover {
 
   .tripTitle{
     font-size: 5vw;
-    margin-top: 13%;
+    margin-top: 5%;
   }
 
   .tripDescription
