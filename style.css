@@ -77,20 +77,19 @@ a:hover {
 	width: 0;
 	position: fixed;
 	z-index: 1;
-	top: 50;
-	left: 0;
 	background-color: #e8e8e8;
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 30px;
-	margin-top: 3%;
+	margin-top: 2.5%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 735px) {
 	.sidenav {
-		margin-top: 9.5%;
+		margin-top: 6%;
 	}
 }
+
 
 .sidenav a {
 	padding: 8px 8px 8px 32px;
@@ -131,7 +130,8 @@ a:hover {
 	color: #1E1E1E;
 	font-weight: bold;
 	letter-spacing: 2px;
-	padding-top: 13px;
+	padding-top: 5px;
+  padding-bottom: 5px;
   padding-right: 3%;
 	margin-left: auto;
 	margin-right: auto;
@@ -146,7 +146,6 @@ a:hover {
 	float: left;
 	font-size: 2vw;
 	cursor: pointer;
-	margin-top: 8px;
 }
 
 #homeLogo>a:visited {
@@ -160,12 +159,6 @@ a:hover {
 
 /* Style the navbar */
 
-#navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 500;
-}
 
 #sideNavButton {
 	color: #1e1e1e;
@@ -173,7 +166,7 @@ a:hover {
 	font-size: 5vw;
 	cursor: pointer;
 	margin-left: 13px;
-	margin-top: 8px;
+	margin-top: 5px;
 	text-align: center;
   
 }
@@ -498,10 +491,10 @@ a:hover {
 
 /* iPad screen width */
 
-@media (min-width: 770px) {
+@media (min-width: 736px) {
 	#homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
   {
-    font-size: 2vw;
+    font-size: 1.8vw;
   } 
 
   .comingSoonHeader
@@ -536,12 +529,12 @@ a:hover {
 @media (max-width: 481px) {
 	#homeLogo, #sideNavButton, .comingSoonHeader, .siteFooter
   {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .footerSocialsMedia
   {
-    font-size: 5vw;
+    font-size: 4vw;
     padding-top: 1%;
   }
 
@@ -572,7 +565,7 @@ a:hover {
 
   .aboutMeBox
   {
-    margin-top: 0%;
+    margin-top: 8%;
   }
 
   .bigScreenIndexPhoto
