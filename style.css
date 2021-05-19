@@ -77,6 +77,8 @@ a:hover {
 	width: 0;
 	position: fixed;
 	z-index: 1;
+  top: 50;
+	left: 0;
 	background-color: #e8e8e8;
 	overflow-x: hidden;
 	transition: 0.5s;
@@ -159,6 +161,12 @@ a:hover {
 
 /* Style the navbar */
 
+#navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 500;
+}
 
 #sideNavButton {
 	color: #1e1e1e;
