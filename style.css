@@ -457,82 +457,6 @@ a:hover {
 
 /* Media queries */
 
-
-
-
-/* Big screen */
-
-@media (min-width: 1200px)
-{
-  #homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
-  {
-    font-size: 2vw;
-  }
-
-  .comingSoonHeader
-  {
-    font-size: 10vw;
-    margin-top: 8%;
-  }
-
-.artFirstPhoto, .blogContainer
-  {
-    margin-top: 8%;
-  }
-
-  .tripTitle
-  {
-    margin-top: 5%;
-  }
-
-
-  #mainPhoto {
-    background-position: center 40%;
-  }
-
-  .aboutMeBox
-  {
-    margin-top: 8%;
-  }
- 
-} 
-
-/* iPad screen width */
-
-@media (min-width: 736px) {
-	#homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
-  {
-    font-size: 1.8vw;
-  } 
-
-  .comingSoonHeader
-  {
-    font-size: 10vw;
-    margin-top: 8%;
-  }
-
-.artFirstPhoto, .artDescriptionBox, .blogContainer
-  {
-    margin-top: 8%;
-  }
-
-  .tripTitle
-  {
-    margin-top: 3%;
-  }
-
-  .bigPhoto
-  {
-    margin-top: 8%;
-  }
-
-  .aboutMeBox
-  {
-    margin-top: 8%;
-  }
-    
-}
-
 /* Mobile width */
 @media (max-width: 481px) {
 	#homeLogo, #sideNavButton, .comingSoonHeader, .siteFooter
@@ -583,9 +507,106 @@ a:hover {
 
   .mobileIndexPhoto
   {
-    display: block;
+    display: inline-block;
   }
 }
+
+
+
+
+/* iPad screen width */
+
+@media (min-width: 736px) {
+	#homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
+  {
+    font-size: 1.8vw;
+  } 
+
+  .comingSoonHeader
+  {
+    font-size: 10vw;
+    margin-top: 8%;
+  }
+
+.artFirstPhoto, .artDescriptionBox, .blogContainer
+  {
+    margin-top: 8%;
+  }
+
+  .tripTitle
+  {
+    margin-top: 3%;
+  }
+
+  .bigPhoto
+  {
+    margin-top: 8%;
+  }
+
+  .aboutMeBox
+  {
+    margin-top: 8%;
+  }
+  .bigScreenIndexPhoto
+  {
+    display: inline-block;
+  }
+
+  .mobileIndexPhoto
+  {
+    display: none;
+  }
+    
+}
+
+/* Big screen */
+
+@media (min-width: 1200px)
+{
+  #homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
+  {
+    font-size: 2vw;
+  }
+
+  .comingSoonHeader
+  {
+    font-size: 10vw;
+    margin-top: 8%;
+  }
+
+.artFirstPhoto, .blogContainer
+  {
+    margin-top: 8%;
+  }
+
+  .tripTitle
+  {
+    margin-top: 5%;
+  }
+
+
+  #mainPhoto {
+    background-position: center 40%;
+  }
+
+  .aboutMeBox
+  {
+    margin-top: 8%;
+  }
+
+  .bigScreenIndexPhoto
+  {
+    display: inline-block;
+  }
+
+  .mobileIndexPhoto
+  {
+    display: none;
+  }
+ 
+} 
+
+
 
 
 
