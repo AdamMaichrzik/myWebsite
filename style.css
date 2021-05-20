@@ -63,11 +63,13 @@ a:hover {
   transition: opacity .15s ease-in-out;
 }
 
+
+/* --- Home page stylings --- */
+
 .mobileIndexPhoto
 {
   display: none;
 }
-/* --- Home page stylings --- */
 
 
 /* - Navigation bar - */
