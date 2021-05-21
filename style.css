@@ -437,13 +437,6 @@ a:hover {
   margin-top: 21%;
 }
 
-.artTitle {
-	font-size: 5vw;
-	color: #E8E8E8;
-	text-align: center;
-	margin-top: 3%;
-}
-
 .artDescription {
 	width: 90%;
 	margin-left: 5%;
@@ -522,6 +515,11 @@ a:hover {
   {
     display: inline-block;
   }
+
+  .artDescriptionBox
+{
+  margin-top: 3%;
+}
 }
 
 
