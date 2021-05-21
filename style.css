@@ -462,6 +462,11 @@ a:hover {
   margin-top: 3%;
 }
 
+.mobilePadding
+  {
+    padding-top: 3%;
+  }
+
 /* Media queries */
 
 /* Mobile width */
@@ -492,10 +497,11 @@ a:hover {
     padding: 5%;
   }
 
-  .mobilePadding
+  .artFirstPhoto
   {
-    padding-top: 3%;
+    margin-top: 8%;
   }
+  
 
   #mainQuote
   {
@@ -504,7 +510,7 @@ a:hover {
 
   .aboutMeBox
   {
-    margin-top: 8%;
+    margin-top: 13%;
   }
 
   .bigScreenIndexPhoto
