@@ -7,11 +7,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Bootstrap stylesheer-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link rel="stylesheet" href="fontello/fontello.css">
     <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;700&display=swap" rel="stylesheet">
+    <!-- Light box styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 </head>
 
 <body class="animate-in">
@@ -34,33 +39,47 @@
             <a href="../index.html">Adam Maichrzik</a>
         </div>
     </div>
-    <div class="bigPhoto" style="margin-top: 21%;">
-        <img src="../img/Arts/cross.jpeg" width="100%">
-    </div>
-    <div class="artTitle">Cross</div>
-    <div class="artDescription">
-        <p>
-            This minimalistic masterpiece was made by my in saturnday evening. <br>
-        </p>
-        <p>
-            <h2>Specifications</h2>
-            Height: 30 cm <br>
-            Width: 20 cm    <br>
-            Material: Canvas <br>
-        </p>
-        <h2>Interiors</h2>
-    </div>
-    <div class="bigPhoto" style="margin-top: 3%;">
-        <img src="../img/Arts/crossInterior1.png" width="100%">
-    </div>
-    <div class="bigPhoto" style="margin-top: 3%;">
-        <img src="../img/Arts/crossInterior2.png" width="100%">
-    </div>
-    <div class="bigPhoto" style="margin-top: 3%;">
-        <img src="../img/Arts/crossInterior3.png" width="100%">
-    </div>
-    <div class="bigPhoto" style="margin-top: 3%;">
-        <img src="../img/Arts/crossInterior4.png" width="100%">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xl-6 artFirstPhoto">
+                <a href="../img/Arts/cross.jpeg" data-lightbox="photo">
+					<img class="img-fluid artFirstPhoto" src="../img/Arts/cross.jpeg">
+				</a>                
+            </div>
+            <div class="col-md-12 col-xl-6 artDescriptionBox">
+                <div class="artTitle">Cross</div>
+                <div class="artDescription">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vestibulum nec ipsum ligula. Vivamus iaculis nisi id metus dignissim commodo. 
+                    Curabitur sagittis pellentesque velit, id blandit ipsum convallis a. 
+                    Nulla lobortis euismod luctus. Integer imperdiet urna a magna malesuada aliquet. 
+                </p>
+                <p>
+                    <h2>Specifications</h2>
+                    Height: 30 cm <br>
+                    Width: 20 cm    <br>
+                    Material: Canvas <br>
+                </p>
+                <p>
+                    <h2>Price</h2>
+                    400$
+                </p>
+                </div>
+            </div>
+            <div class="artTitle">Interiors</div>
+            <div class="photo-gallery">
+				<div class="container">
+					<div class="row photos">
+						<div class="col-md-6 col-xl-4 item"><a href="../img/Arts/crossInterior1.png" data-lightbox="photos"><img class="img-fluid mobilePadding" src="../img/Arts/crossInterior1.png"></a></div>
+						<div class="col-md-6 col-xl-4 item"><a href="../img/Arts/crossInterior2.png" data-lightbox="photos"><img class="img-fluid mobilePadding" src="../img/Arts/crossInterior2.png"></a></div>
+						<div class="col-md-6 col-xl-4 item"><a href="../img/Arts/crossInterior3.png" data-lightbox="photos"><img class="img-fluid mobilePadding" src="../img/Arts/crossInterior3.png"></a></div>
+						<div class="col-md-6 col-xl-4 item"><a href="../img/Arts/crossInterior4.png" data-lightbox="photos"><img class="img-fluid mobilePadding" src="../img/Arts/crossInterior4.png"></a></div>
+					</div>
+				</div>
+			</div>
+        </div>
     </div>
 
     <!-- Footers -->
@@ -89,5 +108,9 @@
             document.getElementById("mySidenav").style.width = "0";
         }
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    
 </body>
 </html>
