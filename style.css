@@ -463,7 +463,8 @@ a:hover {
 /* Media queries */
 
 /* Mobile width */
-@media (max-width: 481px) {
+@media (max-width: 481px) 
+{
 	#homeLogo, #sideNavButton, .comingSoonHeader, .siteFooter
   {
     font-size: 4vw;
@@ -489,13 +490,7 @@ a:hover {
   {
     padding: 5%;
   }
-
-  .artFirstPhoto
-  {
-    margin-top: 8%;
-  }
   
-
   #mainQuote
   {
     padding: 8%;
@@ -517,9 +512,20 @@ a:hover {
   }
 
   .artDescriptionBox
+  {
+    margin-top: 3%;
+  }
+
+  .artFirstPhoto
+{
+  margin-top: 5%;
+}
+
+.artDescriptionBox
 {
   margin-top: 3%;
 }
+
 }
 
 
@@ -527,7 +533,8 @@ a:hover {
 
 /* iPad screen width */
 
-@media (min-width: 736px) {
+@media (min-width: 736px) 
+{
 	#homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
   {
     font-size: 1.8vw;
@@ -566,6 +573,16 @@ a:hover {
   .mobileIndexPhoto
   {
     display: none;
+  }
+
+  .artDescriptionBox
+  {
+    margin-top: 8%;
+  }
+
+  .artFirstPhoto
+  {
+    margin-top: 5%;
   }
     
 }
