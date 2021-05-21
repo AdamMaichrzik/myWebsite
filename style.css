@@ -438,7 +438,7 @@ a:hover {
 }
 
 .artTitle {
-	font-size: 8vw;
+	font-size: 5vw;
 	color: #E8E8E8;
 	text-align: center;
 	margin-top: 3%;
@@ -455,6 +455,11 @@ a:hover {
 .artFirstPhoto
 {
   margin-top: 21%;
+}
+
+.interiorArt
+{
+  margin-top: 3%;
 }
 
 /* Media queries */
