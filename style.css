@@ -173,7 +173,7 @@ a:hover {
 	font-size: 5vw;
 	cursor: pointer;
 	margin-left: 13px;
-	margin-top: 10px;
+	margin-top: 1%;
 	text-align: center;
   
 }
@@ -480,7 +480,7 @@ a:hover {
 
   .tripTitle{
     font-size: 5vw;
-    margin-top: 13%;
+    margin-top: 8%;
   }
 
   .tripDescription
@@ -514,20 +514,33 @@ a:hover {
   }
 
   .artFirstPhoto
-{
-  margin-top: 5%;
-}
+  {
+    margin-top: 5%;
+  }
 
-.artDescriptionBox
-{
-  margin-top: 3%;
-}
+  .artDescriptionBox
+  {
+    margin-top: 3%;
+  }
 
-.mobilePadding
-{
-  margin-top: 3%;
-}
+  .mobilePadding
+  {
+    margin-top: 3%;
+  }
 
+  .languageButtons
+  {
+    font-size: 2.5vw;
+  }
+
+  #homeLogo
+  {
+    margin-top: 3%;
+  }
+  #sideNavButton
+  {
+    margin-top: 10%;
+  }
 
 }
 
@@ -643,12 +656,6 @@ a:hover {
   .mobilePadding
   {
     margin-top: 0%;
-  }
-
-  .languageButtons
-  {
-    font-size: 1vw;
-    color: red;
   }
  
 } 
