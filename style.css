@@ -74,10 +74,11 @@ a:hover {
 
 /* - Navigation bar - */
 
-.menuButtons
+.languageButtons
 {
-  padding-right: 1%;
+  float: right;
 }
+
 
 .sidenav {
 	height: 100%;
@@ -489,7 +490,7 @@ a:hover {
 
   .tripTitle{
     font-size: 5vw;
-    margin-top: 5%;
+    margin-top: 13%;
   }
 
   .tripDescription
@@ -536,6 +537,7 @@ a:hover {
 {
   margin-top: 3%;
 }
+
 
 }
 

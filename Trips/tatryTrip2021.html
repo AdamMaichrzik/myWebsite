@@ -44,8 +44,8 @@
 		<div id="homeLogo">
 			<a href="../index.html">Adam Maichrzik</a>
 		</div>
-		<button type="button" class="btn btn-dark" onclick="polishLanguage()">PL</button>
-		<button type="button" class="btn btn-dark" onclick="englishLanguage()">EN</button>
+		<button type="button" class="btn btn-light languageButtons" onclick="polishLanguage()">PL</button>
+		<button type="button" class="btn btn-light languageButtons" onclick="englishLanguage()">EN</button>
 	</div>
 
     <!-- Main trip title -->
@@ -59,7 +59,7 @@
 	
 	<div class="container">
 		<!-- Text row -->
-		<div class="row" id="polishDescription">
+		<div class="polishDescription row">
 			<div class="col tripDescription">
 				<h2>6 rano nie tym razem</h2>
 				<p>
@@ -67,7 +67,7 @@
 				</p> 
 			</div>
 		</div>
-		<div class="row" id="englishDescription">
+		<div class="englishDescription row">
 			<div class="col tripDescription">
 				<h2>6 AM not today</h2>
 				<p>
@@ -94,10 +94,16 @@
 			</div>
 		</div>
 		<!-- Text row -->
-		<div class="row">
+		<div class="englishDescription row">
 			<div class="col tripDescription">
 				<h2>Rusinowa polana and Gęsia szyja</h2>
 				Of course the best time to start the trip is as soon as possible. Less traffic, the temperature is optimal for travelling by car, the sun is rising and giving you happy feeling about the rest of the day. The sooner you are on the place the better for you in overall. But... not this time. We wanted to departure early but in the other hand we didn't have to. We had planned to visit just one place this day, going to this place straight from our home, not visiting the hotel. It was Rusinowa Polana and Gęsia szyja. 
+			</div>
+		</div>
+		<div class="polishDescription row">
+			<div class="col tripDescription">
+				<h2>Rusinowa polana i Gęsia szyja</h2>
+				Oczywiście najlepiej rozpocząć podróż jak najszybciej. Mniejszy ruch, temperatura jest optymalna do podróżowania samochodem, słońce wschodzi i daje radość z pozostałej części dnia. Im szybciej będziesz na miejscu, tym ogólnie lepiej dla Ciebie. Ale ... nie tym razem. Chcieliśmy wyjechać wcześniej, ale z drugiej strony nie musieliśmy. Tego dnia planowaliśmy odwiedzić tylko jedno miejsce, udając się w to miejsce prosto z domu, nie odwiedzając najpierw hotelu. Była to Rusinowa Polana i Gęsia szyja. 
 			</div>
 		</div>
 		<!-- Wide photo-->
@@ -276,18 +282,24 @@
     }
 	</script>
 	<script>
-		var plDesc = document.getElementById("polishDescription")
-		var enDesc = document.getElementById("englishDescription")
+		var classNumber = document.querySelectorAll('.polishDescription').length;
 		function englishLanguage()
 		{
-			plDesc.style.display ="none";
-			enDesc.style.display = "block";
+			for(var i = 0; i < classNumber; i++)
+			{
+				document.getElementsByClassName('polishDescription')[i].style.display = 'none';
+				document.getElementsByClassName('englishDescription')[i].style.display = 'block';
+			}
 		}
 		function polishLanguage()
 		{
-			enDesc.style.display = "none";
-			plDesc.style.display = "block";
+			for(var i = 0; i < classNumber; i++)
+			{
+				document.getElementsByClassName('polishDescription')[i].style.display = 'block';
+				document.getElementsByClassName('englishDescription')[i].style.display = 'none';
+			}
 		}
+		
 	</script>
 	
 </body>
