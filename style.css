@@ -457,13 +457,13 @@ a:hover {
 
 .mobilePadding
   {
-    padding-top: 3%;
+    padding-top: 0%;
   }
 
 /* Media queries */
 
 /* Mobile width */
-@media (max-width: 481px) 
+@media (max-width: 576px) 
 {
 	#homeLogo, #sideNavButton, .comingSoonHeader, .siteFooter
   {
@@ -526,6 +526,11 @@ a:hover {
   margin-top: 3%;
 }
 
+.mobilePadding
+{
+  margin-top: 3%;
+}
+
 }
 
 
@@ -533,7 +538,7 @@ a:hover {
 
 /* iPad screen width */
 
-@media (min-width: 736px) 
+@media (min-width: 768px) 
 {
 	#homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
   {
@@ -584,7 +589,12 @@ a:hover {
   {
     margin-top: 5%;
   }
-    
+
+  .mobilePadding
+  {
+    margin-top: 3%;
+  }
+
 }
 
 /* Big screen */
@@ -630,6 +640,11 @@ a:hover {
   .mobileIndexPhoto
   {
     display: none;
+  }
+
+  .mobilePadding
+  {
+    margin-top: 0%;
   }
  
 } 
