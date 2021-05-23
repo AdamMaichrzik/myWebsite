@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="pl">
+<html lang="en">
 <head>
 	<title>Adam Maichrzik - personal website</title>
 	<meta content="Adam Maichrzik, web developer, programmer, artist, writer, HTML5, CSS, Javascript, bootstrap, git, gitHub" name="description">
@@ -68,7 +68,7 @@
 	
 	<div class="container">
 		<!-- Text row -->
-		<div class="polishDescription row">
+		<div class="polishTranslation row">
 			<div class="col tripDescription">
 				<h2>6 rano nie tym razem</h2>
 				<p>
@@ -76,7 +76,7 @@
 				</p> 
 			</div>
 		</div>
-		<div class="englishDescription row">
+		<div class="englishTranslation row">
 			<div class="col tripDescription">
 				<h2>6 AM not today</h2>
 				<p>
@@ -103,13 +103,13 @@
 			</div>
 		</div>
 		<!-- Text row -->
-		<div class="englishDescription row">
+		<div class="englishTranslation row">
 			<div class="col tripDescription">
 				<h2>Rusinowa polana and Gęsia szyja</h2>
 				Of course the best time to start the trip is as soon as possible. Less traffic, the temperature is optimal for travelling by car, the sun is rising and giving you happy feeling about the rest of the day. The sooner you are on the place the better for you in overall. But... not this time. We wanted to departure early but in the other hand we didn't have to. We had planned to visit just one place this day, going to this place straight from our home, not visiting the hotel. It was Rusinowa Polana and Gęsia szyja. 
 			</div>
 		</div>
-		<div class="polishDescription row">
+		<div class="polishTranslation row">
 			<div class="col tripDescription">
 				<h2>Rusinowa polana i Gęsia szyja</h2>
 				Oczywiście najlepiej rozpocząć podróż jak najszybciej. Mniejszy ruch, temperatura jest optymalna do podróżowania samochodem, słońce wschodzi i daje radość z pozostałej części dnia. Im szybciej będziesz na miejscu, tym ogólnie lepiej dla Ciebie. Ale ... nie tym razem. Chcieliśmy wyjechać wcześniej, ale z drugiej strony nie musieliśmy. Tego dnia planowaliśmy odwiedzić tylko jedno miejsce, udając się w to miejsce prosto z domu, nie odwiedzając najpierw hotelu. Była to Rusinowa Polana i Gęsia szyja. 
@@ -291,21 +291,21 @@
     }
 	</script>
 	<script>
-		var classNumber = document.querySelectorAll('.polishDescription').length;
+		var classNumber = document.querySelectorAll('.polishTranslation').length;
 		function englishLanguage()
 		{
 			for(var i = 0; i < classNumber; i++)
 			{
-				document.getElementsByClassName('polishDescription')[i].style.display = 'none';
-				document.getElementsByClassName('englishDescription')[i].style.display = 'block';
+				document.getElementsByClassName('polishTranslation')[i].style.display = 'none';
+				document.getElementsByClassName('englishTranslation')[i].style.display = 'block';
 			}
 		}
 		function polishLanguage()
 		{
 			for(var i = 0; i < classNumber; i++)
 			{
-				document.getElementsByClassName('polishDescription')[i].style.display = 'block';
-				document.getElementsByClassName('englishDescription')[i].style.display = 'none';
+				document.getElementsByClassName('polishTranslation')[i].style.display = 'block';
+				document.getElementsByClassName('englishTranslation')[i].style.display = 'none';
 			}
 		}
 		

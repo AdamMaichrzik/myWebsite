@@ -14,20 +14,69 @@
 	<link href="https://fonts.gstatic.com" rel="preconnect">
 	<link href="fontello/fontello.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;700&display=swap" rel="stylesheet">
+	<!-- Language function -->
+	<script>
+		function checkLanguage()
+		{
+			if(document.documentElement.lang == "pl")
+			{
+				polishLanguage();
+			}
+			else
+			{
+				englishLanguage();
+			}
+		}
+		</script>
 </head>
 
-<body class="animate-in">
+<body class="animate-in" onload="checkLanguage()">
 	<!-- Nav bar -->
 	<div class="container-full sticky-top" id="navbar">
 		<div class="row">
 			<div class="col-3 col-md-2">
 				<div class="sidenav" id="mySidenav">
 				<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a> 
-					<a href="about.html">About</a> 
-					<a href="photos.html">Photos</a> 
-					<a href="arts.html">Arts</a> 
-					<a href="book.html">Book</a> 
-					<a href="blog.html">Blog</a>
+					<a href="about.html">
+						<div class="polishTranslation">
+							O mnie
+						</div>
+						<div class="englishTranslation">
+							About
+						</div>
+					</a> 
+					<a href="photos.html">
+						<div class="polishTranslation">
+							Zdjęcia
+						</div>
+						<div class="englishTranslation">
+							Photos
+						</div>
+					</a> 
+					<a href="arts.html">
+						<div class="polishTranslation">
+							Dzieła
+						</div>
+						<div class="englishTranslation">
+							Arts
+						</div>
+					</a> 
+					<a href="book.html">
+						<div class="polishTranslation">
+							Ksiązka
+						</div>
+						<div class="englishTranslation">
+							Book
+						</div>
+					</a> 
+					<a href="blog.html">
+						<div class="polishTranslation">
+							Podróze
+						</div>
+						<div class="englishTranslation">
+							Blog
+						</div>
+					</a>
 				</div>
 				<span id="sideNavButton" onclick="openNav()">&#9776;</span>
 			</div>
@@ -48,9 +97,15 @@
 		
 
 	<div id="mainQuote">
-		<p>“My favorite things in life don’t cost any money.<br>
-		It’s really clear that the most precious resource<br>
-		we all have is time.” - <span style="font-style: italic;">Steve Jobs.</span></p>
+		<p class="englishTranslation">
+			“My favorite things in life don’t cost any money.<br>
+			It’s really clear that the most precious resource<br>
+			we all have is time.” - <span style="font-style: italic;">Steve Jobs.</span>
+		</p>
+		<p class="polishTranslation">
+			“Ulubione rzeczy w moim zyciu nic nie kosztuja<br>
+			To naprawdę jasne, ze najdrozsze co mamy to nasz czas” - <span style="font-style: italic;">Steve Jobs.</span>
+		</p>
 	</div>
 
 	<!-- Footers -->
@@ -76,5 +131,25 @@
       document.getElementById("mySidenav").style.width = "0";
     }
   </script> 
+  <script>
+	var classNumber = document.querySelectorAll('.polishTranslation').length;
+	function englishLanguage()
+	{
+		for(var i = 0; i < classNumber; i++)
+		{
+			document.getElementsByClassName('polishTranslation')[i].style.display = 'none';
+			document.getElementsByClassName('englishTranslation')[i].style.display = 'block';
+		}
+	}
+	function polishLanguage()
+	{
+		for(var i = 0; i < classNumber; i++)
+		{
+			document.getElementsByClassName('polishTranslation')[i].style.display = 'block';
+			document.getElementsByClassName('englishTranslation')[i].style.display = 'none';
+		}
+	}
+	
+</script>
 </body>
 </html>
