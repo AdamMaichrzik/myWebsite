@@ -15,6 +15,19 @@
 	<link href="../fontello/fontello.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;700&display=swap" rel="stylesheet">
 	<link href="../style.css" rel="stylesheet">
+	<script>
+		function checkLanguage()
+		{
+			if(document.documentElement.lang == "pl")
+			{
+				polishLanguage();
+			}
+			else
+			{
+				englishLanguage();
+			}
+		}
+	</script>
 </head>
 
 <body class="animate-in" onload="checkLanguage()">
@@ -32,12 +45,10 @@
 			<span id="sideNavButton" onclick="openNav()">&#9776;</span>
 			</div>
 			<div id="homeLogo">
-				<a href="../index.html">Adam Maichrzik</a>
+				<a class="nav-link" href="../index.html">Adam Maichrzik</a>
 			</div>
-		<span class="navbar-text menuButtons">
 			<button type="button" class="btn btn-dark" onclick="polishLanguage()">PL</button>
 			<button type="button" class="btn btn-dark" onclick="englishLanguage()">EN</button>
-		</span>
 	  </nav>
 
     <!-- Main trip title -->
@@ -281,18 +292,6 @@
 			plDesc.style.display = "block";
 		}
 	</script>
-	<script>
-		function checkLanguage()
-		{
-			if(document.documentElement.lang == "pl")
-			{
-				polishLanguage();
-			}
-			else
-			{
-				englishLanguage();
-			}
-		}
-	</script>
+	
 </body>
 </html>
