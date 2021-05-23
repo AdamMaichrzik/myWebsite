@@ -145,6 +145,7 @@ a:hover {
   margin-right: auto;
   padding-left: 5%;
 	height: auto;
+  top: 0;
 	font-size: 5vw;
 	z-index: 100;
 	text-align: center;
