@@ -74,6 +74,11 @@ a:hover {
 
 /* - Navigation bar - */
 
+.menuButtons
+{
+  padding-right: 1%;
+}
+
 .sidenav {
 	height: 100%;
 	width: 0;
@@ -136,9 +141,9 @@ a:hover {
 	letter-spacing: 2px;
 	padding-top: 5px;
   padding-bottom: 5px;
-  padding-right: 3%;
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
 	height: auto;
 	font-size: 5vw;
 	z-index: 100;
@@ -176,7 +181,7 @@ a:hover {
 	font-size: 5vw;
 	cursor: pointer;
 	margin-left: 13px;
-	margin-top: 5px;
+	margin-top: 10px;
 	text-align: center;
   
 }
@@ -380,7 +385,7 @@ a:hover {
   color: #E8E8E8;
   padding: 3% 0 3% 0;
 	letter-spacing: 1px;
-	text-align: justify;
+	text-align: left;
 }
 
 .mainTripPhoto {
