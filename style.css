@@ -645,6 +645,12 @@ a:hover {
   {
     margin-top: 0%;
   }
+
+  .languageButtons
+  {
+    font-size: 1vw;
+    color: red;
+  }
  
 } 
 
