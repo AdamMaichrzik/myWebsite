@@ -63,7 +63,6 @@ a:hover {
   transition: opacity .15s ease-in-out;
 }
 
-
 /* --- Home page stylings --- */
 
 .mobileIndexPhoto
@@ -71,12 +70,7 @@ a:hover {
   display: none;
 }
 
-
 /* - Navigation bar - */
-
-
-
-
 .sidenav {
 	height: 100%;
 	width: 0;
@@ -88,13 +82,8 @@ a:hover {
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 30px;
-	margin-top: 2.5%;
-}
-
-@media (max-width: 735px) {
-	.sidenav {
-		margin-top: 6%;
-	}
+	margin-top: 43px;
+  font-size: 30px;
 }
 
 
@@ -134,12 +123,15 @@ a:hover {
 #homeLogo {
 	text-transform: uppercase;
 	background-color: #E8E8E8;
-	color: #1E1E1E;
 	font-weight: bold;
 	letter-spacing: 2px;
   padding-top: 1%;
-	font-size: 5vw;
 	text-align: center;
+}
+
+.logoStyle
+{
+  font-size: 4vw;
 }
 
 #menu {
@@ -162,17 +154,16 @@ a:hover {
 
 #navbar {
   background-color: #E8E8E8;
+  height: 48px;
 }
 
 #sideNavButton {
 	color: #1e1e1e;
 	float: left;
-	font-size: 5vw;
 	cursor: pointer;
 	margin-left: 13px;
-	margin-top: 1%;
-	text-align: center;
-  
+	margin-top: 1%;  
+  font-size: 30px;
 }
 
 /* Styles for Arts page */
@@ -454,12 +445,17 @@ a:hover {
     padding-top: 0%;
   }
 
+  .languages
+  {
+    float: right;
+  }
+
 /* Media queries */
 
 /* Mobile width */
 @media (max-width: 576px) 
 {
-	#homeLogo, #sideNavButton, .comingSoonHeader, .siteFooter
+	.logoStyle, .comingSoonHeader, .siteFooter
   {
     font-size: 4.5vw;
   }
@@ -534,10 +530,7 @@ a:hover {
   {
     margin-top: 3%;
   }
-  #sideNavButton
-  {
-    margin-top: 10%;
-  }
+
   .blogContainer
   {
     margin-top: 5%;
@@ -552,7 +545,7 @@ a:hover {
 
 @media (min-width: 768px) 
 {
-	#homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
+	.logoStyle, .footerSocialsMedia, .siteFooter
   {
     font-size: 1.8vw;
   } 
@@ -613,7 +606,7 @@ a:hover {
 
 @media (min-width: 1200px)
 {
-  #homeLogo, #sideNavButton, .footerSocialsMedia, .siteFooter
+  .logoStyle, .footerSocialsMedia, .siteFooter
   {
     font-size: 2vw;
   }
@@ -633,7 +626,6 @@ a:hover {
   {
     margin-top: 1%;
   }
-
 
   #mainPhoto {
     background-position: center 40%;
