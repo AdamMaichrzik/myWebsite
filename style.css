@@ -125,13 +125,13 @@ a:hover {
 	background-color: #E8E8E8;
 	font-weight: bold;
 	letter-spacing: 2px;
-  padding-top: 1%;
+  padding-top: 5px;
 	text-align: center;
 }
 
 .logoStyle
 {
-  font-size: 4vw;
+  font-size: 14px;
 }
 
 #menu {
@@ -162,7 +162,7 @@ a:hover {
 	float: left;
 	cursor: pointer;
 	margin-left: 13px;
-	margin-top: 1%;  
+	padding-top: 5%;  
   font-size: 30px;
 }
 
@@ -457,7 +457,7 @@ a:hover {
 {
 	.logoStyle, .comingSoonHeader, .siteFooter
   {
-    font-size: 4.5vw;
+    font-size: 15px;
   }
 
   .footerSocialsMedia
@@ -523,7 +523,7 @@ a:hover {
 
   .languageButtons
   {
-    font-size: 2vw;
+    font-size: 14px;
   }
 
   #homeLogo
