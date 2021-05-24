@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Adam Maichrzik - personal website</title>
 	<meta content="Adam Maichrzik, web developer, programmer, artist, writer, HTML5, CSS, Javascript, bootstrap, git, gitHub" name="description">
@@ -85,12 +85,13 @@
 					<a href="index.html">Adam Maichrzik</a>
 				</div>
 			</div>
-			<div class="col-1" style="margin-top: 3px;">
+			<div class="col-1" style="margin-top: 3px; text-align: right;">
 				<button type="button" class="btn languageButtons" onclick="englishLanguage()">EN</button>
 			</div>
 			<div class="col-1" style="margin-top: 3px;">
 				<button type="button" class="btn languageButtons" onclick="polishLanguage()">PL</button>
 			</div>
+
 		</div>
 	</div>
 
@@ -139,6 +140,7 @@
 		{
 			document.getElementsByClassName('polishTranslation')[i].style.display = 'none';
 			document.getElementsByClassName('englishTranslation')[i].style.display = 'block';
+			document.documentElement.lang = "en"
 		}
 	}
 	function polishLanguage()
@@ -147,6 +149,7 @@
 		{
 			document.getElementsByClassName('polishTranslation')[i].style.display = 'block';
 			document.getElementsByClassName('englishTranslation')[i].style.display = 'none';
+			document.documentElement.lang = "pl"
 		}
 	}
 	
