@@ -47,7 +47,7 @@ body {
 }
 
 a {
-	color: #E8E8E8;
+	color: #1E1E1E;
 	text-decoration: none;
 }
 
@@ -132,13 +132,6 @@ a:hover {
 .logoStyle
 {
   font-size: 14px;
-}
-
-#menu {
-	color: #1e1e1e;
-	float: left;
-	font-size: 2vw;
-	cursor: pointer;
 }
 
 #homeLogo>a:visited {
@@ -600,6 +593,11 @@ a:hover {
     margin-top: 3%;
   }
 
+  #homeLogo
+  {
+    margin-top: 10px;
+  }
+
 }
 
 /* Big screen */
@@ -609,6 +607,11 @@ a:hover {
   .logoStyle, .footerSocialsMedia, .siteFooter
   {
     font-size: 2vw;
+  }
+
+  #homeLogo
+  {
+    margin-top: 8px;
   }
 
   .comingSoonHeader
