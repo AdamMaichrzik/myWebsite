@@ -13,20 +13,49 @@
 	<link href="https://fonts.gstatic.com" rel="preconnect">
 	<link href="fontello/fontello.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;700&display=swap" rel="stylesheet">
+		<!-- Language function -->
+	<script>
+		function checkLanguage()
+		{
+			if(document.documentElement.lang == "pl")
+			{
+				polishLanguage();
+			}
+			else
+			{
+				englishLanguage();
+			}
+		}
+		</script>
 </head>
 
 <body class="animate-in">
 	<!-- Nav bar -->
-		<div class="container-full sticky-top" id="navbar">
+	<div class="container-full sticky-top" id="navbar">
 		<div class="row" style="margin-right: 0%;">
 			<div class="col-3 col-md-2">
 				<div class="sidenav" id="mySidenav">
 				<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a> 
-					<a href="about.html">About</a> 
-					<a href="photos.html">Photos</a> 
-					<a href="arts.html">Arts</a> 
-					<a href="book.html">Book</a> 
-					<a href="blog.html">Blog</a>
+					<a href="about.html">
+						<span class="englishTranslation">About</span>
+						<span class="polishTranslation">O mnie</span>
+					</a> 
+					<a href="photos.html">
+						<span class="englishTranslation">Photos</span>
+						<span class="polishTranslation">Zdjęcia</span>
+					</a> 
+					<a href="arts.html">
+						<span class="englishTranslation">Arts</span>
+						<span class="polishTranslation">Obrazy</span>
+					</a> 
+					<a href="book.html">
+						<span class="englishTranslation">Book</span>
+						<span class="polishTranslation">Książka</span>
+					</a> 
+					<a href="blog.html">
+						<span class="englishTranslation">Blog</span>
+						<span class="polishTranslation">Podróże</span>
+					</a>
 				</div>
 				<span id="sideNavButton" onclick="openNav()">&#9776;</span>
 			</div>

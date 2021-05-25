@@ -17,34 +17,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;700&display=swap" rel="stylesheet">
     <!-- Light box styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    	<!-- Language function -->
+	<script>
+		function checkLanguage()
+		{
+			if(document.documentElement.lang == "pl")
+			{
+				polishLanguage();
+			}
+			else
+			{
+				englishLanguage();
+			}
+		}
+		</script>
 </head>
 
 <body class="animate-in">
-    <!-- Nav bar -->
-    <div class="container-full sticky-top" id="navbar">
-        <div class="row">
-            <div class="col-3 col-md-2">
-                <div class="sidenav" id="mySidenav">
-                <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a> 
-                    <a href="../about.html">About</a> 
-                    <a href="../photos.html">Photos</a> 
-                    <a href="../arts.html">Arts</a> 
-                    <a href="../book.html">Book</a> 
-                    <a href="../blog.html">Blog</a>
-                </div>
-                <span id="sideNavButton" onclick="openNav()" style="color: #1e1e1e; float: left; cursor:pointer; margin-left: 13px; margin-top: 8px; text-align: center;">&#9776;</span>
-            </div>
-            <div class="col-6 col-md-8">
-                <div id="homeLogo">
-                    <a class="logoStyle" href="index.html">Adam Maichrzik</a>
-                </div>
-            </div>
-            <div class="col-3 col-md-2" style="margin-top: 3px;">
-                <button type="button" class="btn languageButtons" onclick="englishLanguage()">EN</button>
-                <button type="button" class="btn languageButtons" onclick="polishLanguage()">PL</button>
-            </div>
-        </div>
-    </div>
+<!-- Nav bar -->
+<div class="container-full sticky-top" id="navbar">
+	<div class="row" style="margin-right: 0%;">
+		<div class="col-3 col-md-2">
+			<div class="sidenav" id="mySidenav">
+			<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a> 
+				<a href="../about.html">
+					<span class="englishTranslation">About</span>
+					<span class="polishTranslation">O mnie</span>
+				</a> 
+				<a href="../photos.html">
+					<span class="englishTranslation">Photos</span>
+					<span class="polishTranslation">Zdjęcia</span>
+				</a> 
+				<a href="../arts.html">
+					<span class="englishTranslation">Arts</span>
+					<span class="polishTranslation">Obrazy</span>
+				</a> 
+				<a href="../book.html">
+					<span class="englishTranslation">Book</span>
+					<span class="polishTranslation">Książka</span>
+				</a> 
+				<a href="../blog.html">
+					<span class="englishTranslation">Blog</span>
+					<span class="polishTranslation">Podróże</span>
+				</a>
+			</div>
+			<span id="sideNavButton" onclick="openNav()">&#9776;</span>
+		</div>
+		<div class="col-6 col-md-8">
+			<div id="homeLogo">
+				<a href="../index.html">Adam Maichrzik</a>
+			</div>
+		</div>
+		<div class="col-1" style="margin-top: 3px;">
+			<button type="button" class="btn languageButtons" onclick="englishLanguage()">EN</button>
+		</div>
+		<div class="col-1" style="margin-top: 3px;">
+			<button type="button" class="btn languageButtons" onclick="polishLanguage()">PL</button>
+		</div>
+	</div>
+</div>
 
     <div class="container">
         <div class="row">
