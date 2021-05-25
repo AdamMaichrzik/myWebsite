@@ -1,31 +1,30 @@
 body {
-	background-color: #1E1E1E;
-	font-family: 'Gayathri', sans-serif;
+	background-color: #1e1e1e;
+	font-family: "Gayathri", sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
 /* --- Home page styling --- */
 
-.indexBox
-{
-  width: 100%;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  position: relative;
+.indexBox {
+	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	position: relative;
 }
 
-.indexText{
-  z-index: 100;
-  position: absolute;
-  bottom: 10%;
-  font-size: 2em;
-  color: #1E1E1E;
-  background-color: white;
-  width: 98%;
-  text-align: center;
-  letter-spacing: 1px;
-  padding: 1%;
+.indexText {
+	z-index: 100;
+	position: absolute;
+	bottom: 10%;
+	font-size: 2em;
+	color: #1e1e1e;
+	background-color: white;
+	width: 98%;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 1%;
 }
 
 #mainPhoto {
@@ -36,8 +35,8 @@ body {
 }
 
 #mainQuote {
-	color: #E8E8E8;
-	background-color: #1E1E1E;
+	color: #e8e8e8;
+	background-color: #1e1e1e;
 	text-align: center;
 	font-style: bold;
 	font-size: 30px;
@@ -47,27 +46,26 @@ body {
 }
 
 a {
-	color: #1E1E1E;
+	color: #1e1e1e;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #E8E8E8;
+	color: #e8e8e8;
 	text-decoration: none;
 }
 
 a:hover {
 	color: #9f9f9f;
 	text-decoration: none;
-  opacity: 0.5;
-  transition: opacity .15s ease-in-out;
+	opacity: 0.5;
+	transition: opacity 0.15s ease-in-out;
 }
 
 /* --- Home page stylings --- */
 
-.mobileIndexPhoto
-{
-  display: none;
+.mobileIndexPhoto {
+	display: none;
 }
 
 /* - Navigation bar - */
@@ -76,29 +74,28 @@ a:hover {
 	width: 0;
 	position: fixed;
 	z-index: 1;
-  top: 0;
+	top: 0;
 	left: 0;
 	background-color: #e8e8e8;
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 30px;
 	margin-top: 43px;
-  font-size: 30px;
+	font-size: 30px;
 }
-
 
 .sidenav a {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #1E1E1E;
+	color: #1e1e1e;
 	display: block;
 	transition: 0.3s;
 	z-index: 100;
 }
 
 .sidenav a:hover {
-	color: #8E8E8E;
+	color: #8e8e8e;
 }
 
 .sidenav .closebtn {
@@ -122,23 +119,22 @@ a:hover {
 
 #homeLogo {
 	text-transform: uppercase;
-	background-color: #E8E8E8;
+	background-color: #e8e8e8;
 	font-weight: bold;
 	letter-spacing: 2px;
-  padding-top: 5px;
+	padding-top: 5px;
 	text-align: center;
 }
 
-.logoStyle
-{
-  font-size: 14px;
+.logoStyle {
+	font-size: 14px;
 }
 
-#homeLogo>a:visited {
-	color: #1E1E1E;
+#homeLogo > a:visited {
+	color: #1e1e1e;
 }
 
-#homeLogo>a:hover {
+#homeLogo > a:hover {
 	color: #9f9f9f;
 	transition: 0.3s;
 }
@@ -146,8 +142,8 @@ a:hover {
 /* Style the navbar */
 
 #navbar {
-  background-color: #E8E8E8;
-  height: 48px;
+	background-color: #e8e8e8;
+	height: 48px;
 }
 
 #sideNavButton {
@@ -155,8 +151,8 @@ a:hover {
 	float: left;
 	cursor: pointer;
 	margin-left: 13px;
-	padding-top: 5%;  
-  font-size: 30px;
+	padding-top: 5%;
+	font-size: 30px;
 }
 
 /* Styles for Arts page */
@@ -171,87 +167,82 @@ a:hover {
 
 .ArtsDescriptions {
 	text-align: center;
-	color: #E8E8E8;
+	color: #e8e8e8;
 }
 
 /* About me styles */
 
 .aboutMePhoto {
-  background-color: #E8E8E8;
+	background-color: #e8e8e8;
 	letter-spacing: 1px;
-  position: relative;
+	position: relative;
 }
 
 .aboutMeBox {
-  background-color: #E8E8E8;
+	background-color: #e8e8e8;
 	letter-spacing: 1px;
-  position: relative;
-  margin-top: 21%;
+	position: relative;
+	margin-top: 21%;
 }
 
-.certificatesBox
-{
-  background-color: #E8E8E8;
-  padding-top: 3%;
+.certificatesBox {
+	background-color: #e8e8e8;
+	padding-top: 3%;
 }
 
 .aboutMeParagraph {
-	padding-left: 5%; 
-  padding-right: 5%; 
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-color: #E8E8E8;
-  text-align: justify;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #e8e8e8;
+	text-align: justify;
 }
 
-
-.aboutMeImage
-{
-  padding-left: 5%; 
-  padding-right: 5%;
-  padding-top: 5%; 
-  width: 100%;
+.aboutMeImage {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	width: 100%;
 }
 
-@media all and (min-width: 770px)
-{
-  .aboutMeImage{
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-  }
-
+@media all and (min-width: 770px) {
+	.aboutMeImage {
+		overflow: auto;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
 }
 
-.aboutMeHeader
-{
-  margin-left: 5%; 
-  text-align: center;
-  padding-top: 3%;
+.aboutMeHeader {
+	margin-left: 5%;
+	text-align: center;
+	padding-top: 3%;
 }
 
-.certificationsHeader
-{
-  margin-left: 5%; 
-  text-align: center;
-  padding-top: 3%;
+.certificationsHeader {
+	margin-left: 5%;
+	text-align: center;
+	padding-top: 3%;
 }
 
-.aboutMeText
-{
-  margin-top: 30%;
+.aboutMeText {
+	margin-top: 30%;
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
-	background-color: #E8E8E8;
+	background-color: #e8e8e8;
 	letter-spacing: 1px;
 }
 /* Fade in and out effect while opening the page  */
 
 .animate-in {
-	-webkit-animation: fadeIn .5s ease-in;
-	animation: fadeIn .5s ease-in;
+	-webkit-animation: fadeIn 0.5s ease-in;
+	animation: fadeIn 0.5s ease-in;
 }
 
 @-webkit-keyframes fadeIn {
@@ -275,28 +266,25 @@ a:hover {
 /* Book page styles */
 
 .bookDiv {
-
-	background-color: #E8E8E8;
+	background-color: #e8e8e8;
 	letter-spacing: 1px;
 	text-align: justify;
 	padding: 5%;
 }
 
-
 .comingSoonHeader {
 	margin-top: 21%;
 	font-size: 10vw;
-	color: #E8E8E8;
+	color: #e8e8e8;
 	text-align: center;
 }
 
 /* Footer styles */
 
-#footerBox
-{
-  width: 100%;
-  background-color: #E8E8E8;
-  color: #1E1E1E;
+#footerBox {
+	width: 100%;
+	background-color: #e8e8e8;
+	color: #1e1e1e;
 }
 
 .footerSocialsMedia {
@@ -307,7 +295,7 @@ a:hover {
 }
 
 .siteFooter {
-  height: 100%;
+	height: 100%;
 	font-size: 5vw;
 	text-align: center;
 }
@@ -319,19 +307,19 @@ a:hover {
 	margin-right: 10%;
 	margin-left: 10%;
 	margin-top: 21%;
-	background-color: #E8E8E8;
+	background-color: #e8e8e8;
 	padding-top: 3%;
 	padding-bottom: 3%;
 	margin-bottom: 8%;
 }
 
 .blogListLink {
-	color: #1E1E1E;
+	color: #1e1e1e;
 	text-decoration: none;
 }
 
 .blogListLink:visited {
-	color: #1E1E1E;
+	color: #1e1e1e;
 	text-decoration: none;
 }
 
@@ -343,20 +331,20 @@ a:hover {
 /* Trip pages styles */
 
 .tripTitle {
-  padding: 3%;
+	padding: 3%;
 	text-align: center;
-	color: #E8E8E8;
-  font-size: 3vw;
+	color: #e8e8e8;
+	font-size: 3vw;
 }
 
 .tripHeader {
 	padding: 3%;
 	text-align: center;
-  color: #E8E8E8;
+	color: #e8e8e8;
 }
 .tripDescription {
-  color: #E8E8E8;
-  padding: 3% 0 3% 0;
+	color: #e8e8e8;
+	padding: 3% 0 3% 0;
 	letter-spacing: 1px;
 	text-align: left;
 }
@@ -370,19 +358,17 @@ a:hover {
 
 /* Art's page styles */
 
-.artDescriptionBox
-{
-  margin-top: 21%;
+.artDescriptionBox {
+	margin-top: 21%;
 }
 
-.margin
-{
-  padding: 1%;
+.margin {
+	padding: 1%;
 }
 
 .artTitle {
 	font-size: 8vw;
-	color: #E8E8E8;
+	color: #e8e8e8;
 	text-align: center;
 	margin-top: 3%;
 }
@@ -391,28 +377,28 @@ a:hover {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-  margin-top: 3%;
+	margin-top: 3%;
 	text-align: justify;
-	color: #E8E8E8;
+	color: #e8e8e8;
 }
 
-.item:hover, .artFirstPhoto:hover
-{
-    opacity: 0.5;
-    -webkit-transition: opacity 1s;
-    transition: opacity 1s;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;  
+.item:hover,
+.artFirstPhoto:hover {
+	opacity: 0.5;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 /* Photos page styling */
 
 .bigPhoto {
-	margin-left: auto; 
-  margin-right: auto; 
-  margin-top: 21%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21%;
 }
 
 .artDescription {
@@ -420,241 +406,198 @@ a:hover {
 	margin-left: 5%;
 	margin-right: 5%;
 	text-align: justify;
-	color: #E8E8E8;
+	color: #e8e8e8;
 }
 
-.artFirstPhoto
-{
-  margin-top: 21%;
+.artFirstPhoto {
+	margin-top: 21%;
 }
 
-.interiorArt
-{
-  margin-top: 3%;
+.interiorArt {
+	margin-top: 3%;
 }
 
-.mobilePadding
-  {
-    padding-top: 0%;
-  }
+.mobilePadding {
+	padding-top: 0%;
+}
 
-  .languages
-  {
-    float: right;
-  }
+.languages {
+	float: right;
+}
 
 /* Media queries */
 
 /* Mobile width */
-@media (max-width: 576px) 
-{
-	.logoStyle, .comingSoonHeader, .siteFooter
-  {
-    font-size: 15px;
-  }
+@media (max-width: 576px) {
+	.logoStyle,
+	.comingSoonHeader,
+	.siteFooter {
+		font-size: 15px;
+	}
 
-  .footerSocialsMedia
-  {
-    font-size: 4vw;
-    padding-top: 1%;
-  }
+	.footerSocialsMedia {
+		font-size: 4vw;
+		padding-top: 1%;
+	}
 
-  .aboutMeHeader
-  {
-    padding-top: 3%;
-  }
+	.aboutMeHeader {
+		padding-top: 3%;
+	}
 
-  .tripTitle{
-    font-size: 5vw;
-    margin-top: 8%;
-  }
+	.tripTitle {
+		font-size: 5vw;
+		margin-top: 8%;
+	}
 
-  .tripDescription
-  {
-    padding: 5%;
-  }
-  
-  #mainQuote
-  {
-    padding: 8%;
-  }
+	.tripDescription {
+		padding: 5%;
+	}
 
-  .aboutMeBox
-  {
-    margin-top: 13%;
-  }
+	#mainQuote {
+		padding: 8%;
+	}
 
-  .bigScreenIndexPhoto
-  {
-    display: none;
-  }
+	.aboutMeBox {
+		margin-top: 13%;
+	}
 
-  .mobileIndexPhoto
-  {
-    display: inline-block;
-  }
+	.bigScreenIndexPhoto {
+		display: none;
+	}
 
-  .artDescriptionBox
-  {
-    margin-top: 3%;
-  }
+	.mobileIndexPhoto {
+		display: inline-block;
+	}
 
-  .artFirstPhoto
-  {
-    margin-top: 5%;
-  }
+	.artDescriptionBox {
+		margin-top: 3%;
+	}
 
-  .artDescriptionBox
-  {
-    margin-top: 3%;
-  }
+	.artFirstPhoto {
+		margin-top: 5%;
+	}
 
-  .mobilePadding
-  {
-    margin-top: 3%;
-  }
+	.artDescriptionBox {
+		margin-top: 3%;
+	}
 
-  .languageButtons
-  {
-    font-size: 14px;
-  }
+	.mobilePadding {
+		margin-top: 3%;
+	}
 
-  #homeLogo
-  {
-    margin-top: 3%;
-  }
+	.languageButtons {
+		font-size: 14px;
+	}
 
-  .blogContainer
-  {
-    margin-top: 5%;
-  }
+	#homeLogo {
+		margin-top: 3%;
+	}
 
+	.blogContainer {
+		margin-top: 5%;
+	}
 }
-
-
-
 
 /* iPad screen width */
 
-@media (min-width: 768px) 
-{
-	.logoStyle, .footerSocialsMedia, .siteFooter
-  {
-    font-size: 1.8vw;
-  } 
+@media (min-width: 768px) {
+	.logoStyle,
+	.footerSocialsMedia,
+	.siteFooter {
+		font-size: 1.8vw;
+	}
 
-  .comingSoonHeader
-  {
-    font-size: 10vw;
-    margin-top: 8%;
-  }
+	.comingSoonHeader {
+		font-size: 10vw;
+		margin-top: 8%;
+	}
 
-.artFirstPhoto, .artDescriptionBox, .blogContainer
-  {
-    margin-top: 8%;
-  }
+	.artFirstPhoto,
+	.artDescriptionBox,
+	.blogContainer {
+		margin-top: 8%;
+	}
 
-  .tripTitle
-  {
-    margin-top: 3%;
-  }
+	.tripTitle {
+		margin-top: 3%;
+	}
 
-  .bigPhoto
-  {
-    margin-top: 8%;
-  }
+	.bigPhoto {
+		margin-top: 8%;
+	}
 
-  .aboutMeBox
-  {
-    margin-top: 8%;
-  }
-  .bigScreenIndexPhoto
-  {
-    display: inline-block;
-  }
+	.aboutMeBox {
+		margin-top: 8%;
+	}
+	.bigScreenIndexPhoto {
+		display: inline-block;
+	}
 
-  .mobileIndexPhoto
-  {
-    display: none;
-  }
+	.mobileIndexPhoto {
+		display: none;
+	}
 
-  .artDescriptionBox
-  {
-    margin-top: 8%;
-  }
+	.artDescriptionBox {
+		margin-top: 8%;
+	}
 
-  .artFirstPhoto
-  {
-    margin-top: 5%;
-  }
+	.artFirstPhoto {
+		margin-top: 5%;
+	}
 
-  .mobilePadding
-  {
-    margin-top: 3%;
-  }
+	.mobilePadding {
+		margin-top: 3%;
+	}
 
-  #homeLogo
-  {
-    margin-top: 10px;
-  }
-
+	#homeLogo {
+		margin-top: 10px;
+	}
 }
 
 /* Big screen */
 
-@media (min-width: 1200px)
-{
-  .logoStyle, .footerSocialsMedia, .siteFooter
-  {
-    font-size: 2vw;
-  }
+@media (min-width: 1200px) {
+	.logoStyle,
+	.footerSocialsMedia,
+	.siteFooter {
+		font-size: 2vw;
+	}
 
-  #homeLogo
-  {
-    margin-top: 8px;
-  }
+	#homeLogo {
+		margin-top: 8px;
+	}
 
-  .comingSoonHeader
-  {
-    font-size: 10vw;
-    margin-top: 8%;
-  }
+	.comingSoonHeader {
+		font-size: 10vw;
+		margin-top: 8%;
+	}
 
-.artFirstPhoto, .blogContainer
-  {
-    margin-top: 8%;
-  }
+	.artFirstPhoto,
+	.blogContainer {
+		margin-top: 8%;
+	}
 
-  .tripTitle
-  {
-    margin-top: 1%;
-  }
+	.tripTitle {
+		margin-top: 1%;
+	}
 
-  #mainPhoto {
-    background-position: center 40%;
-  }
+	#mainPhoto {
+		background-position: center 40%;
+	}
 
-  .aboutMeBox
-  {
-    margin-top: 8%;
-  }
+	.aboutMeBox {
+		margin-top: 8%;
+	}
 
-  .bigScreenIndexPhoto
-  {
-    display: inline-block;
-  }
+	.bigScreenIndexPhoto {
+		display: inline-block;
+	}
 
-  .mobileIndexPhoto
-  {
-    display: none;
-  }
+	.mobileIndexPhoto {
+		display: none;
+	}
 
-  .mobilePadding
-  {
-    margin-top: 0%;
-  }
- 
-} 
-
-
-
+	.mobilePadding {
+		margin-top: 0%;
+	}
+}
