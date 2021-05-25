@@ -119,7 +119,7 @@
 		{
 			document.getElementsByClassName('polishTranslation')[i].style.display = 'none';
 			document.getElementsByClassName('englishTranslation')[i].style.display = 'block';
-			document.documentElement.lang = "en";
+			document.documentElement.setAttribute("lang","en");
 		}
 	}
 	function polishLanguage()
@@ -128,7 +128,7 @@
 		{
 			document.getElementsByClassName('polishTranslation')[i].style.display = 'block';
 			document.getElementsByClassName('englishTranslation')[i].style.display = 'none';
-			document.documentElement.lang = "pl";
+			document.documentElement.setAttribute("lang","pl");
 		}
 	}
 	</script>
