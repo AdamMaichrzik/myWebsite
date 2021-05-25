@@ -85,5 +85,26 @@
       document.body.classList.add("animate-out");
     });
   </script>
+  <script>
+	var classNumber = document.querySelectorAll('.polishTranslation').length;
+	function englishLanguage()
+	{
+		for(var i = 0; i < classNumber; i++)
+		{
+			document.getElementsByClassName('polishTranslation')[i].style.display = 'none';
+			document.getElementsByClassName('englishTranslation')[i].style.display = 'block';
+			document.documentElement.lang = "en";
+		}
+	}
+	function polishLanguage()
+	{
+		for(var i = 0; i < classNumber; i++)
+		{
+			document.getElementsByClassName('polishTranslation')[i].style.display = 'block';
+			document.getElementsByClassName('englishTranslation')[i].style.display = 'none';
+			document.documentElement.lang = "pl";
+		}
+	}
+	</script>
 </body>
 </html>
